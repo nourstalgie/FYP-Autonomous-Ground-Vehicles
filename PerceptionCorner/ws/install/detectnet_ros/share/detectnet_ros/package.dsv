@@ -1,0 +1,9 @@
+source;share/detectnet_ros/hook/pythonpath.ps1
+source;share/detectnet_ros/hook/pythonpath.dsv
+source;share/detectnet_ros/hook/pythonpath.sh
+source;share/detectnet_ros/hook/ament_prefix_path.ps1
+source;share/detectnet_ros/hook/ament_prefix_path.dsv
+source;share/detectnet_ros/hook/ament_prefix_path.sh
+source;../../build/detectnet_ros/share/detectnet_ros/hook/pythonpath_develop.ps1
+source;../../build/detectnet_ros/share/detectnet_ros/hook/pythonpath_develop.dsv
+source;../../build/detectnet_ros/share/detectnet_ros/hook/pythonpath_develop.sh

@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: detectnet-ros
+Version: 0.0.0
+Summary: TODO: ROS 2 node for DetectNet inference using DeepStream
+Home-page: UNKNOWN
+Maintainer: nourstalgie
+Maintainer-email: nourstalgie@todo.todo
+License: TODO: License declaration
+Platform: UNKNOWN
+Provides-Extra: test
+
+UNKNOWN
+

@@ -1,0 +1,11 @@
+package.xml
+setup.cfg
+setup.py
+detectnet_ros.egg-info/PKG-INFO
+detectnet_ros.egg-info/SOURCES.txt
+detectnet_ros.egg-info/dependency_links.txt
+detectnet_ros.egg-info/entry_points.txt
+detectnet_ros.egg-info/requires.txt
+detectnet_ros.egg-info/top_level.txt
+detectnet_ros.egg-info/zip-safe
+resource/detectnet_ros

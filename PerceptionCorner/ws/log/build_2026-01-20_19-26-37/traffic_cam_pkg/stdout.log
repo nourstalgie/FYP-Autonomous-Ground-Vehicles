@@ -1,0 +1,37 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/traffic_cam_pkg
+-- Install configuration: ""
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/traffic_cam_pkg/launch
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/traffic_cam_pkg/launch/traffic_detection.launch.py
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/traffic_cam_pkg/config
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/traffic_cam_pkg/config/traffic_labels.txt
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/ament_index/resource_index/package_run_dependencies/traffic_cam_pkg
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/ament_index/resource_index/parent_prefix_path/traffic_cam_pkg
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/traffic_cam_pkg/environment/ament_prefix_path.sh
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/traffic_cam_pkg/environment/ament_prefix_path.dsv
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/traffic_cam_pkg/environment/path.sh
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/traffic_cam_pkg/environment/path.dsv
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/traffic_cam_pkg/local_setup.bash
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/traffic_cam_pkg/local_setup.sh
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/traffic_cam_pkg/local_setup.zsh
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/traffic_cam_pkg/local_setup.dsv
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/traffic_cam_pkg/package.dsv
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/ament_index/resource_index/packages/traffic_cam_pkg
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/traffic_cam_pkg/cmake/traffic_cam_pkgConfig.cmake
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/traffic_cam_pkg/cmake/traffic_cam_pkgConfig-version.cmake
+-- Installing: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/traffic_cam_pkg/share/traffic_cam_pkg/package.xml

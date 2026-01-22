@@ -1,0 +1,14 @@
+[property]
+gpu-id=0
+net-scale-factor=0.0039215697906911373
+model-color-format=0
+onnx-file=resnet18_trafficcamnet_pruned.onnx
+model-engine-file=trafficcamnet_b1_gpu0_fp16.engine
+labelfile-path=labels.txt
+batch-size=1
+network-mode=2 # 0: FP32, 1: INT8, 2: FP16 (use 2 for best speed)
+num-detected-classes=4
+interval=0
+gie-unique-id=1
+# DetectNet_v2 specific clustering
+cluster-mode=1

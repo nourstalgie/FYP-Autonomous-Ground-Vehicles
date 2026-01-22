@@ -1,0 +1,1 @@
+gst-launch-1.0   filesrc location=/home/nourstalgie/Downloads/IMG_0080.mov !   decodebin ! m.sink_0 nvstreammux name=m width=1280 height=720 batch-size=1 !   nvinfer config-file-path=config_infer_trafficcamnet.txt !   nvvideoconvert ! nvdsosd ! nveglglessink

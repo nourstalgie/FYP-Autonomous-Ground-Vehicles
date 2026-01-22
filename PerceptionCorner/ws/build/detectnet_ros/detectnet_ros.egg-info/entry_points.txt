@@ -1,0 +1,3 @@
+[console_scripts]
+detectnet_node = detectnet_ros.detectnet_node:main
+

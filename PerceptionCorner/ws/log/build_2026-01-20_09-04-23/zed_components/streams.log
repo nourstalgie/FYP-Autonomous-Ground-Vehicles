@@ -1,0 +1,141 @@
+[0.018s] Invoking command in '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components
+[0.123s] -- Found CUDA: /usr/local/cuda-12.6 (found suitable version "12.6", minimum required is "12.6") 
+[0.166s] -- Found CUDA: /usr/local/cuda-12.6 (found version "12.6") 
+[0.167s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.436s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.667s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.673s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.687s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.706s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.732s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.917s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.920s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.123s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.562s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.564s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.813s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.893s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.897s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.898s] -- Configured cppcheck include dirs: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/include;/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include;/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/tools/include
+[1.898s] -- Configured cppcheck exclude dirs and/or files: 
+[1.900s] -- Added test 'lint_cmake' to check CMake code style
+[1.904s] -- Added test 'uncrustify' to check C / C++ code style
+[1.904s] -- Configured uncrustify additional arguments: 
+[1.906s] -- Added test 'xmllint' to check XML markup files
+[1.915s] -- Configuring done
+[1.994s] -- Generating done
+[2.018s] -- Build files have been written to: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components
+[2.051s] Invoked command in '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components
+[2.057s] Invoking command in '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components -- -j6 -l6
+[2.171s] [ 60%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/tools/src/gnss_replay.cpp.o[0m
+[2.172s] [ 60%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_win_avg.cpp.o[0m
+[2.172s] [ 60%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/tools/src/sl_win_avg.cpp.o[0m
+[2.172s] [ 60%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/gnss_replay.cpp.o[0m
+[2.173s] [ 60%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_tools.cpp.o[0m
+[2.173s] [ 60%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/tools/src/sl_tools.cpp.o[0m
+[3.273s] [ 70%] [32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/zed_camera/src/zed_camera_one_component.cpp.o[0m
+[3.319s] [ 80%] [32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o[0m
+[16.611s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.612s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.613s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.613s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.hpp:48[m[K,
+[16.613s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:42[m[K,
+[16.613s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:35[m[K,
+[16.613s]                  from [01m[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/sl_types.hpp:18[m[K,
+[16.613s]                  from [01m[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/zed_camera_component.hpp:24[m[K,
+[16.614s]                  from [01m[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:15[m[K:
+[16.614s] [01m[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:[m[K In member function ‘[01m[Kbool stereolabs::ZedCamera::startCamera()[m[K’:
+[16.614s] [01m[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:4249:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[16.614s]  4249 |       get_logger(), [01;35m[K" * SVO resolution -> %dx%d"[m[K,
+[16.614s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.614s]  4250 |       [32m[KmZed->getCameraInformation().camera_configuration.resolution.width[m[K,
+[16.614s]       |       [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.615s]       |                                                                    [32m[K|[m[K
+[16.615s]       |                                                                    [32m[Ksize_t {aka long unsigned int}[m[K
+[16.615s] [01m[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:4249:44:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[16.615s]  4249 |       get_logger(), " * SVO resolution -> [01;36m[K%d[m[Kx%d",
+[16.615s]       |                                           [01;36m[K~^[m[K
+[16.615s]       |                                            [01;36m[K|[m[K
+[16.615s]       |                                            [01;36m[Kint[m[K
+[16.615s]       |                                           [32m[K%ld[m[K
+[16.616s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[16.616s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[16.616s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[16.616s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[16.616s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[16.617s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[16.617s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[16.617s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[16.617s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[16.617s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[16.617s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[16.617s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.hpp:48[m[K,
+[16.617s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:42[m[K,
+[16.617s]                  from [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:35[m[K,
+[16.618s]                  from [01m[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/sl_types.hpp:18[m[K,
+[16.618s]                  from [01m[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/zed_camera_component.hpp:24[m[K,
+[16.618s]                  from [01m[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:15[m[K:
+[16.618s] [01m[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:4249:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[16.618s]  4249 |       get_logger(), [01;35m[K" * SVO resolution -> %dx%d"[m[K,
+[16.618s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.618s]  4250 |       mZed->getCameraInformation().camera_configuration.resolution.width,
+[16.619s]  4251 |       [32m[KmZed->getCameraInformation().camera_configuration.resolution.height[m[K);
+[16.619s]       |       [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[16.619s]       |                                                                    [32m[K|[m[K
+[16.619s]       |                                                                    [32m[Ksize_t {aka long unsigned int}[m[K
+[16.619s] [01m[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:4249:47:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[16.619s]  4249 |       get_logger(), " * SVO resolution -> %dx[01;36m[K%d[m[K",
+[16.619s]       |                                              [01;36m[K~^[m[K
+[16.619s]       |                                               [01;36m[K|[m[K
+[16.619s]       |                                               [01;36m[Kint[m[K
+[16.620s]       |                                              [32m[K%ld[m[K
+[54.155s] [ 90%] [32m[1mLinking CXX shared library libzed_camera_one_component.so[0m
+[55.107s] [ 90%] Built target zed_camera_one_component
+[187.042s] [100%] [32m[1mLinking CXX shared library libzed_camera_component.so[0m
+[188.512s] [100%] Built target zed_camera_component
+[188.538s] Invoked command in '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components -- -j6 -l6
+[188.562s] Invoking command in '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components
+[188.579s] -- Install configuration: "Release"
+[188.580s] -- Execute custom install script
+[188.581s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/lib/libzed_camera_component.so
+[188.601s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/lib/libzed_camera_one_component.so
+[188.622s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//cost_traversability.hpp
+[188.641s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//sl_types.hpp
+[188.662s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//zed_camera_component.hpp
+[188.681s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//zed_camera_one_component.hpp
+[188.700s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//gnss_replay.hpp
+[188.720s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//json.hpp
+[188.738s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//sl_logging.hpp
+[188.758s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//sl_tools.hpp
+[188.777s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//sl_win_avg.hpp
+[188.796s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//visibility_control.hpp
+[188.816s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/environment/library_path.sh
+[188.835s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/environment/library_path.dsv
+[188.854s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/ament_index/resource_index/package_run_dependencies/zed_components
+[188.874s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/ament_index/resource_index/parent_prefix_path/zed_components
+[188.892s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/environment/ament_prefix_path.sh
+[188.911s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/environment/ament_prefix_path.dsv
+[188.930s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/environment/path.sh
+[188.949s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/environment/path.dsv
+[188.968s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/local_setup.bash
+[188.986s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/local_setup.sh
+[189.005s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/local_setup.zsh
+[189.023s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/local_setup.dsv
+[189.042s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/package.dsv
+[189.061s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/ament_index/resource_index/packages/zed_components
+[189.080s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/ament_index/resource_index/rclcpp_components/zed_components
+[189.099s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_include_directories-extras.cmake
+[189.117s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_libraries-extras.cmake
+[189.136s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_dependencies-extras.cmake
+[189.154s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig.cmake
+[189.173s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig-version.cmake
+[189.191s] -- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/package.xml
+[189.215s] Invoked command in '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components

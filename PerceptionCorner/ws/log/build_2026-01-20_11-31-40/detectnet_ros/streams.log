@@ -1,0 +1,23 @@
+[1.600s] Invoking command in '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/detectnet_ros': PYTHONPATH=/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/detectnet_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/detectnet_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/detectnet_ros/build --no-deps symlink_data
+[2.193s] running develop
+[2.574s] running egg_info
+[2.574s] creating detectnet_ros.egg-info
+[2.574s] writing detectnet_ros.egg-info/PKG-INFO
+[2.575s] writing dependency_links to detectnet_ros.egg-info/dependency_links.txt
+[2.575s] writing entry points to detectnet_ros.egg-info/entry_points.txt
+[2.575s] writing requirements to detectnet_ros.egg-info/requires.txt
+[2.576s] writing top-level names to detectnet_ros.egg-info/top_level.txt
+[2.576s] writing manifest file 'detectnet_ros.egg-info/SOURCES.txt'
+[2.579s] reading manifest file 'detectnet_ros.egg-info/SOURCES.txt'
+[2.580s] writing manifest file 'detectnet_ros.egg-info/SOURCES.txt'
+[2.704s] running build_ext
+[2.705s] Creating /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/detectnet_ros/lib/python3.10/site-packages/detectnet-ros.egg-link (link to .)
+[2.707s] 
+[2.707s] Installed /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/detectnet_ros
+[2.707s] running symlink_data
+[2.708s] creating /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/detectnet_ros/share/ament_index
+[2.708s] creating /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/detectnet_ros/share/ament_index/resource_index
+[2.708s] creating /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/detectnet_ros/share/ament_index/resource_index/packages
+[2.709s] symbolically linking /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/detectnet_ros/resource/detectnet_ros -> /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/detectnet_ros/share/ament_index/resource_index/packages
+[2.709s] symbolically linking /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/detectnet_ros/package.xml -> /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/detectnet_ros/share/detectnet_ros
+[2.801s] Invoked command in '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/detectnet_ros' returned '0': PYTHONPATH=/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/detectnet_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/detectnet_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/detectnet_ros/build --no-deps symlink_data

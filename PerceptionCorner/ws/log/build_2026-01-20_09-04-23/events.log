@@ -1,0 +1,2200 @@
+[0.000000] (-) TimerEvent: {}
+[0.000947] (zed_components) JobQueued: {'identifier': 'zed_components', 'dependencies': OrderedDict()}
+[0.001247] (zed_wrapper) JobQueued: {'identifier': 'zed_wrapper', 'dependencies': OrderedDict([('zed_components', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components')])}
+[0.001529] (zed_ros2) JobQueued: {'identifier': 'zed_ros2', 'dependencies': OrderedDict([('zed_components', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components'), ('zed_wrapper', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper')])}
+[0.001662] (zed_components) JobStarted: {'identifier': 'zed_components'}
+[0.016617] (zed_components) JobProgress: {'identifier': 'zed_components', 'progress': 'cmake'}
+[0.018334] (zed_components) Command: {'cmd': ['/usr/bin/cmake', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components'], 'cwd': '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nourstalgie'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.1.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/nourstalgie'), ('OLDPWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2673'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nourstalgie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nourstalgie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2492,unix/ubuntu:/tmp/.ICE-unix/2492'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e89456ba_dd82_4128_b44d_d028b896d7c1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099317] (-) TimerEvent: {}
+[0.123980] (zed_components) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda-12.6 (found suitable version "12.6", minimum required is "12.6") \n'}
+[0.167109] (zed_components) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda-12.6 (found version "12.6") \n'}
+[0.168673] (zed_components) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.199408] (-) TimerEvent: {}
+[0.300013] (-) TimerEvent: {}
+[0.400618] (-) TimerEvent: {}
+[0.437303] (zed_components) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.500808] (-) TimerEvent: {}
+[0.601420] (-) TimerEvent: {}
+[0.668354] (zed_components) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.674798] (zed_components) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.688529] (zed_components) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.701489] (-) TimerEvent: {}
+[0.708018] (zed_components) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.733915] (zed_components) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801833] (-) TimerEvent: {}
+[0.902332] (-) TimerEvent: {}
+[0.918764] (zed_components) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.921499] (zed_components) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.002533] (-) TimerEvent: {}
+[1.103177] (-) TimerEvent: {}
+[1.124810] (zed_components) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.203295] (-) TimerEvent: {}
+[1.303873] (-) TimerEvent: {}
+[1.404533] (-) TimerEvent: {}
+[1.505236] (-) TimerEvent: {}
+[1.562841] (zed_components) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.565500] (zed_components) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.605298] (-) TimerEvent: {}
+[1.705869] (-) TimerEvent: {}
+[1.806601] (-) TimerEvent: {}
+[1.814212] (zed_components) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.894350] (zed_components) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.898350] (zed_components) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.899583] (zed_components) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/include;/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include;/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/tools/include\n'}
+[1.899891] (zed_components) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.901289] (zed_components) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.905461] (zed_components) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.905818] (zed_components) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.906664] (-) TimerEvent: {}
+[1.907140] (zed_components) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.916414] (zed_components) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.994989] (zed_components) StdoutLine: {'line': b'-- Generating done\n'}
+[2.006846] (-) TimerEvent: {}
+[2.018999] (zed_components) StdoutLine: {'line': b'-- Build files have been written to: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components\n'}
+[2.052593] (zed_components) CommandEnded: {'returncode': 0}
+[2.054203] (zed_components) JobProgress: {'identifier': 'zed_components', 'progress': 'build'}
+[2.056769] (zed_components) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components', '--', '-j6', '-l6'], 'cwd': '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nourstalgie'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.1.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/nourstalgie'), ('OLDPWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2673'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nourstalgie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nourstalgie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2492,unix/ubuntu:/tmp/.ICE-unix/2492'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e89456ba_dd82_4128_b44d_d028b896d7c1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.107026] (-) TimerEvent: {}
+[2.172805] (zed_components) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/tools/src/gnss_replay.cpp.o\x1b[0m\n'}
+[2.173297] (zed_components) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_win_avg.cpp.o\x1b[0m\n'}
+[2.173487] (zed_components) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/tools/src/sl_win_avg.cpp.o\x1b[0m\n'}
+[2.173649] (zed_components) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/gnss_replay.cpp.o\x1b[0m\n'}
+[2.174188] (zed_components) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/tools/src/sl_tools.cpp.o\x1b[0m\n'}
+[2.174638] (zed_components) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/tools/src/sl_tools.cpp.o\x1b[0m\n'}
+[2.207216] (-) TimerEvent: {}
+[2.307956] (-) TimerEvent: {}
+[2.408975] (-) TimerEvent: {}
+[2.510460] (-) TimerEvent: {}
+[2.611507] (-) TimerEvent: {}
+[2.712530] (-) TimerEvent: {}
+[2.813631] (-) TimerEvent: {}
+[2.915481] (-) TimerEvent: {}
+[3.016663] (-) TimerEvent: {}
+[3.117836] (-) TimerEvent: {}
+[3.218569] (-) TimerEvent: {}
+[3.274828] (zed_components) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/zed_camera_one_component.dir/src/zed_camera/src/zed_camera_one_component.cpp.o\x1b[0m\n'}
+[3.318788] (-) TimerEvent: {}
+[3.320116] (zed_components) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/zed_camera_component.dir/src/zed_camera/src/zed_camera_component.cpp.o\x1b[0m\n'}
+[3.418990] (-) TimerEvent: {}
+[3.519792] (-) TimerEvent: {}
+[3.620628] (-) TimerEvent: {}
+[3.721447] (-) TimerEvent: {}
+[3.822223] (-) TimerEvent: {}
+[3.923014] (-) TimerEvent: {}
+[4.023864] (-) TimerEvent: {}
+[4.124715] (-) TimerEvent: {}
+[4.225541] (-) TimerEvent: {}
+[4.326308] (-) TimerEvent: {}
+[4.427071] (-) TimerEvent: {}
+[4.527831] (-) TimerEvent: {}
+[4.628638] (-) TimerEvent: {}
+[4.729482] (-) TimerEvent: {}
+[4.830266] (-) TimerEvent: {}
+[4.931034] (-) TimerEvent: {}
+[5.031821] (-) TimerEvent: {}
+[5.132596] (-) TimerEvent: {}
+[5.233357] (-) TimerEvent: {}
+[5.334139] (-) TimerEvent: {}
+[5.434936] (-) TimerEvent: {}
+[5.535778] (-) TimerEvent: {}
+[5.636601] (-) TimerEvent: {}
+[5.737406] (-) TimerEvent: {}
+[5.838247] (-) TimerEvent: {}
+[5.939016] (-) TimerEvent: {}
+[6.039801] (-) TimerEvent: {}
+[6.140592] (-) TimerEvent: {}
+[6.241392] (-) TimerEvent: {}
+[6.342492] (-) TimerEvent: {}
+[6.443569] (-) TimerEvent: {}
+[6.544320] (-) TimerEvent: {}
+[6.645102] (-) TimerEvent: {}
+[6.745905] (-) TimerEvent: {}
+[6.846654] (-) TimerEvent: {}
+[6.947442] (-) TimerEvent: {}
+[7.048207] (-) TimerEvent: {}
+[7.148972] (-) TimerEvent: {}
+[7.249778] (-) TimerEvent: {}
+[7.350547] (-) TimerEvent: {}
+[7.451334] (-) TimerEvent: {}
+[7.552133] (-) TimerEvent: {}
+[7.652883] (-) TimerEvent: {}
+[7.753675] (-) TimerEvent: {}
+[7.854466] (-) TimerEvent: {}
+[7.955244] (-) TimerEvent: {}
+[8.056010] (-) TimerEvent: {}
+[8.156791] (-) TimerEvent: {}
+[8.257579] (-) TimerEvent: {}
+[8.358404] (-) TimerEvent: {}
+[8.459227] (-) TimerEvent: {}
+[8.560048] (-) TimerEvent: {}
+[8.660840] (-) TimerEvent: {}
+[8.761580] (-) TimerEvent: {}
+[8.862349] (-) TimerEvent: {}
+[8.963104] (-) TimerEvent: {}
+[9.063865] (-) TimerEvent: {}
+[9.164608] (-) TimerEvent: {}
+[9.265380] (-) TimerEvent: {}
+[9.366151] (-) TimerEvent: {}
+[9.466893] (-) TimerEvent: {}
+[9.567665] (-) TimerEvent: {}
+[9.668449] (-) TimerEvent: {}
+[9.769239] (-) TimerEvent: {}
+[9.870016] (-) TimerEvent: {}
+[9.970782] (-) TimerEvent: {}
+[10.071544] (-) TimerEvent: {}
+[10.172317] (-) TimerEvent: {}
+[10.273028] (-) TimerEvent: {}
+[10.373818] (-) TimerEvent: {}
+[10.474561] (-) TimerEvent: {}
+[10.575279] (-) TimerEvent: {}
+[10.675991] (-) TimerEvent: {}
+[10.776684] (-) TimerEvent: {}
+[10.877373] (-) TimerEvent: {}
+[10.978094] (-) TimerEvent: {}
+[11.078825] (-) TimerEvent: {}
+[11.179528] (-) TimerEvent: {}
+[11.280244] (-) TimerEvent: {}
+[11.380963] (-) TimerEvent: {}
+[11.481669] (-) TimerEvent: {}
+[11.582401] (-) TimerEvent: {}
+[11.683118] (-) TimerEvent: {}
+[11.783834] (-) TimerEvent: {}
+[11.884548] (-) TimerEvent: {}
+[11.985264] (-) TimerEvent: {}
+[12.085988] (-) TimerEvent: {}
+[12.186726] (-) TimerEvent: {}
+[12.287439] (-) TimerEvent: {}
+[12.388152] (-) TimerEvent: {}
+[12.488915] (-) TimerEvent: {}
+[12.589643] (-) TimerEvent: {}
+[12.690402] (-) TimerEvent: {}
+[12.791097] (-) TimerEvent: {}
+[12.891802] (-) TimerEvent: {}
+[12.992515] (-) TimerEvent: {}
+[13.093243] (-) TimerEvent: {}
+[13.194018] (-) TimerEvent: {}
+[13.294737] (-) TimerEvent: {}
+[13.395451] (-) TimerEvent: {}
+[13.496180] (-) TimerEvent: {}
+[13.596894] (-) TimerEvent: {}
+[13.697596] (-) TimerEvent: {}
+[13.798381] (-) TimerEvent: {}
+[13.899111] (-) TimerEvent: {}
+[13.999869] (-) TimerEvent: {}
+[14.100644] (-) TimerEvent: {}
+[14.201367] (-) TimerEvent: {}
+[14.302123] (-) TimerEvent: {}
+[14.402786] (-) TimerEvent: {}
+[14.503485] (-) TimerEvent: {}
+[14.604181] (-) TimerEvent: {}
+[14.704872] (-) TimerEvent: {}
+[14.805568] (-) TimerEvent: {}
+[14.906303] (-) TimerEvent: {}
+[15.006981] (-) TimerEvent: {}
+[15.107648] (-) TimerEvent: {}
+[15.208352] (-) TimerEvent: {}
+[15.309035] (-) TimerEvent: {}
+[15.409779] (-) TimerEvent: {}
+[15.510456] (-) TimerEvent: {}
+[15.611142] (-) TimerEvent: {}
+[15.711827] (-) TimerEvent: {}
+[15.812515] (-) TimerEvent: {}
+[15.913220] (-) TimerEvent: {}
+[16.013918] (-) TimerEvent: {}
+[16.114614] (-) TimerEvent: {}
+[16.215298] (-) TimerEvent: {}
+[16.315990] (-) TimerEvent: {}
+[16.416687] (-) TimerEvent: {}
+[16.517390] (-) TimerEvent: {}
+[16.612527] (zed_components) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[16.613195] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[16.613378] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[16.613555] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[16.613698] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[16.613872] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[16.614007] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[16.614135] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[16.614260] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[16.614386] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[16.614535] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[16.614662] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.hpp:48\x1b[m\x1b[K,\n'}
+[16.614786] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:42\x1b[m\x1b[K,\n'}
+[16.614910] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:35\x1b[m\x1b[K,\n'}
+[16.615031] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/sl_types.hpp:18\x1b[m\x1b[K,\n'}
+[16.615160] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/zed_camera_component.hpp:24\x1b[m\x1b[K,\n'}
+[16.615287] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:15\x1b[m\x1b[K:\n'}
+[16.615410] (zed_components) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool stereolabs::ZedCamera::startCamera()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[16.615537] (zed_components) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:4249:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.615676] (zed_components) StderrLine: {'line': b' 4249 |       get_logger(), \x1b[01;35m\x1b[K" * SVO resolution -> %dx%d"\x1b[m\x1b[K,\n'}
+[16.615800] (zed_components) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.615920] (zed_components) StderrLine: {'line': b' 4250 |       \x1b[32m\x1b[KmZed->getCameraInformation().camera_configuration.resolution.width\x1b[m\x1b[K,\n'}
+[16.616041] (zed_components) StderrLine: {'line': b'      |       \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.616184] (zed_components) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[16.616304] (zed_components) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[16.616426] (zed_components) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:4249:44:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[16.616581] (zed_components) StderrLine: {'line': b' 4249 |       get_logger(), " * SVO resolution -> \x1b[01;36m\x1b[K%d\x1b[m\x1b[Kx%d",\n'}
+[16.616710] (zed_components) StderrLine: {'line': b'      |                                           \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[16.616833] (zed_components) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[16.616952] (zed_components) StderrLine: {'line': b'      |                                            \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[16.617073] (zed_components) StderrLine: {'line': b'      |                                           \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[16.617192] (zed_components) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[16.617312] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[16.617426] (-) TimerEvent: {}
+[16.617698] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[16.617885] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[16.618046] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[16.618178] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[16.618303] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[16.618426] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[16.618548] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[16.618669] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[16.618790] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[16.618910] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer_interface.hpp:48\x1b[m\x1b[K,\n'}
+[16.619032] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.hpp:42\x1b[m\x1b[K,\n'}
+[16.619152] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:35\x1b[m\x1b[K,\n'}
+[16.619292] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/sl_types.hpp:18\x1b[m\x1b[K,\n'}
+[16.619416] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/include/zed_camera_component.hpp:24\x1b[m\x1b[K,\n'}
+[16.619557] (zed_components) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:15\x1b[m\x1b[K:\n'}
+[16.619681] (zed_components) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:4249:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.619817] (zed_components) StderrLine: {'line': b' 4249 |       get_logger(), \x1b[01;35m\x1b[K" * SVO resolution -> %dx%d"\x1b[m\x1b[K,\n'}
+[16.619940] (zed_components) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.620061] (zed_components) StderrLine: {'line': b' 4250 |       mZed->getCameraInformation().camera_configuration.resolution.width,\n'}
+[16.620182] (zed_components) StderrLine: {'line': b' 4251 |       \x1b[32m\x1b[KmZed->getCameraInformation().camera_configuration.resolution.height\x1b[m\x1b[K);\n'}
+[16.620304] (zed_components) StderrLine: {'line': b'      |       \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.620422] (zed_components) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[16.620540] (zed_components) StderrLine: {'line': b'      |                                                                    \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[16.620660] (zed_components) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components/src/zed_camera/src/zed_camera_component.cpp:4249:47:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[16.620781] (zed_components) StderrLine: {'line': b' 4249 |       get_logger(), " * SVO resolution -> %dx\x1b[01;36m\x1b[K%d\x1b[m\x1b[K",\n'}
+[16.620901] (zed_components) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[16.621034] (zed_components) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[16.621155] (zed_components) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[16.621272] (zed_components) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[16.717651] (-) TimerEvent: {}
+[16.818382] (-) TimerEvent: {}
+[16.919070] (-) TimerEvent: {}
+[17.019754] (-) TimerEvent: {}
+[17.120431] (-) TimerEvent: {}
+[17.221129] (-) TimerEvent: {}
+[17.321835] (-) TimerEvent: {}
+[17.422530] (-) TimerEvent: {}
+[17.523210] (-) TimerEvent: {}
+[17.623902] (-) TimerEvent: {}
+[17.724630] (-) TimerEvent: {}
+[17.825305] (-) TimerEvent: {}
+[17.926035] (-) TimerEvent: {}
+[18.026714] (-) TimerEvent: {}
+[18.127403] (-) TimerEvent: {}
+[18.228115] (-) TimerEvent: {}
+[18.328797] (-) TimerEvent: {}
+[18.429494] (-) TimerEvent: {}
+[18.530207] (-) TimerEvent: {}
+[18.630886] (-) TimerEvent: {}
+[18.731577] (-) TimerEvent: {}
+[18.832256] (-) TimerEvent: {}
+[18.932950] (-) TimerEvent: {}
+[19.033651] (-) TimerEvent: {}
+[19.134369] (-) TimerEvent: {}
+[19.235076] (-) TimerEvent: {}
+[19.335823] (-) TimerEvent: {}
+[19.436528] (-) TimerEvent: {}
+[19.537201] (-) TimerEvent: {}
+[19.637887] (-) TimerEvent: {}
+[19.738574] (-) TimerEvent: {}
+[19.839280] (-) TimerEvent: {}
+[19.939958] (-) TimerEvent: {}
+[20.040630] (-) TimerEvent: {}
+[20.141319] (-) TimerEvent: {}
+[20.242323] (-) TimerEvent: {}
+[20.343042] (-) TimerEvent: {}
+[20.443754] (-) TimerEvent: {}
+[20.544448] (-) TimerEvent: {}
+[20.645162] (-) TimerEvent: {}
+[20.745860] (-) TimerEvent: {}
+[20.846557] (-) TimerEvent: {}
+[20.947244] (-) TimerEvent: {}
+[21.047965] (-) TimerEvent: {}
+[21.148674] (-) TimerEvent: {}
+[21.249364] (-) TimerEvent: {}
+[21.350070] (-) TimerEvent: {}
+[21.450779] (-) TimerEvent: {}
+[21.551466] (-) TimerEvent: {}
+[21.652161] (-) TimerEvent: {}
+[21.752851] (-) TimerEvent: {}
+[21.853534] (-) TimerEvent: {}
+[21.954249] (-) TimerEvent: {}
+[22.054931] (-) TimerEvent: {}
+[22.155629] (-) TimerEvent: {}
+[22.256324] (-) TimerEvent: {}
+[22.357003] (-) TimerEvent: {}
+[22.457696] (-) TimerEvent: {}
+[22.558408] (-) TimerEvent: {}
+[22.659097] (-) TimerEvent: {}
+[22.759791] (-) TimerEvent: {}
+[22.860488] (-) TimerEvent: {}
+[22.961154] (-) TimerEvent: {}
+[23.061856] (-) TimerEvent: {}
+[23.162552] (-) TimerEvent: {}
+[23.263229] (-) TimerEvent: {}
+[23.363912] (-) TimerEvent: {}
+[23.464580] (-) TimerEvent: {}
+[23.565273] (-) TimerEvent: {}
+[23.665976] (-) TimerEvent: {}
+[23.766663] (-) TimerEvent: {}
+[23.867363] (-) TimerEvent: {}
+[23.968053] (-) TimerEvent: {}
+[24.068750] (-) TimerEvent: {}
+[24.169439] (-) TimerEvent: {}
+[24.270159] (-) TimerEvent: {}
+[24.370846] (-) TimerEvent: {}
+[24.471552] (-) TimerEvent: {}
+[24.572232] (-) TimerEvent: {}
+[24.672917] (-) TimerEvent: {}
+[24.773619] (-) TimerEvent: {}
+[24.874345] (-) TimerEvent: {}
+[24.975038] (-) TimerEvent: {}
+[25.075743] (-) TimerEvent: {}
+[25.176423] (-) TimerEvent: {}
+[25.277111] (-) TimerEvent: {}
+[25.377820] (-) TimerEvent: {}
+[25.478498] (-) TimerEvent: {}
+[25.579179] (-) TimerEvent: {}
+[25.679873] (-) TimerEvent: {}
+[25.780562] (-) TimerEvent: {}
+[25.881245] (-) TimerEvent: {}
+[25.981963] (-) TimerEvent: {}
+[26.082660] (-) TimerEvent: {}
+[26.183372] (-) TimerEvent: {}
+[26.284070] (-) TimerEvent: {}
+[26.384775] (-) TimerEvent: {}
+[26.485494] (-) TimerEvent: {}
+[26.586232] (-) TimerEvent: {}
+[26.686923] (-) TimerEvent: {}
+[26.787610] (-) TimerEvent: {}
+[26.888292] (-) TimerEvent: {}
+[26.988986] (-) TimerEvent: {}
+[27.089744] (-) TimerEvent: {}
+[27.190444] (-) TimerEvent: {}
+[27.291134] (-) TimerEvent: {}
+[27.391823] (-) TimerEvent: {}
+[27.492494] (-) TimerEvent: {}
+[27.593169] (-) TimerEvent: {}
+[27.693859] (-) TimerEvent: {}
+[27.794520] (-) TimerEvent: {}
+[27.895582] (-) TimerEvent: {}
+[27.996280] (-) TimerEvent: {}
+[28.096975] (-) TimerEvent: {}
+[28.197670] (-) TimerEvent: {}
+[28.298379] (-) TimerEvent: {}
+[28.399021] (-) TimerEvent: {}
+[28.499686] (-) TimerEvent: {}
+[28.600344] (-) TimerEvent: {}
+[28.701010] (-) TimerEvent: {}
+[28.801686] (-) TimerEvent: {}
+[28.902373] (-) TimerEvent: {}
+[29.003056] (-) TimerEvent: {}
+[29.103757] (-) TimerEvent: {}
+[29.204452] (-) TimerEvent: {}
+[29.305138] (-) TimerEvent: {}
+[29.405864] (-) TimerEvent: {}
+[29.506549] (-) TimerEvent: {}
+[29.607222] (-) TimerEvent: {}
+[29.707916] (-) TimerEvent: {}
+[29.808612] (-) TimerEvent: {}
+[29.909319] (-) TimerEvent: {}
+[30.010062] (-) TimerEvent: {}
+[30.110759] (-) TimerEvent: {}
+[30.211455] (-) TimerEvent: {}
+[30.312169] (-) TimerEvent: {}
+[30.412878] (-) TimerEvent: {}
+[30.513594] (-) TimerEvent: {}
+[30.614319] (-) TimerEvent: {}
+[30.714991] (-) TimerEvent: {}
+[30.815697] (-) TimerEvent: {}
+[30.916420] (-) TimerEvent: {}
+[31.017106] (-) TimerEvent: {}
+[31.117842] (-) TimerEvent: {}
+[31.218508] (-) TimerEvent: {}
+[31.319139] (-) TimerEvent: {}
+[31.419812] (-) TimerEvent: {}
+[31.520489] (-) TimerEvent: {}
+[31.621158] (-) TimerEvent: {}
+[31.721858] (-) TimerEvent: {}
+[31.822526] (-) TimerEvent: {}
+[31.923210] (-) TimerEvent: {}
+[32.023882] (-) TimerEvent: {}
+[32.124551] (-) TimerEvent: {}
+[32.225236] (-) TimerEvent: {}
+[32.325951] (-) TimerEvent: {}
+[32.426650] (-) TimerEvent: {}
+[32.527340] (-) TimerEvent: {}
+[32.628086] (-) TimerEvent: {}
+[32.728787] (-) TimerEvent: {}
+[32.829470] (-) TimerEvent: {}
+[32.930181] (-) TimerEvent: {}
+[33.030869] (-) TimerEvent: {}
+[33.131575] (-) TimerEvent: {}
+[33.232289] (-) TimerEvent: {}
+[33.332978] (-) TimerEvent: {}
+[33.433658] (-) TimerEvent: {}
+[33.534419] (-) TimerEvent: {}
+[33.635121] (-) TimerEvent: {}
+[33.735817] (-) TimerEvent: {}
+[33.836817] (-) TimerEvent: {}
+[33.937542] (-) TimerEvent: {}
+[34.038285] (-) TimerEvent: {}
+[34.139008] (-) TimerEvent: {}
+[34.239706] (-) TimerEvent: {}
+[34.340383] (-) TimerEvent: {}
+[34.441096] (-) TimerEvent: {}
+[34.541818] (-) TimerEvent: {}
+[34.642527] (-) TimerEvent: {}
+[34.743237] (-) TimerEvent: {}
+[34.843947] (-) TimerEvent: {}
+[34.944630] (-) TimerEvent: {}
+[35.045332] (-) TimerEvent: {}
+[35.146020] (-) TimerEvent: {}
+[35.246720] (-) TimerEvent: {}
+[35.347432] (-) TimerEvent: {}
+[35.448148] (-) TimerEvent: {}
+[35.548851] (-) TimerEvent: {}
+[35.649549] (-) TimerEvent: {}
+[35.750316] (-) TimerEvent: {}
+[35.851070] (-) TimerEvent: {}
+[35.951792] (-) TimerEvent: {}
+[36.052526] (-) TimerEvent: {}
+[36.153229] (-) TimerEvent: {}
+[36.253945] (-) TimerEvent: {}
+[36.354636] (-) TimerEvent: {}
+[36.455344] (-) TimerEvent: {}
+[36.556046] (-) TimerEvent: {}
+[36.656752] (-) TimerEvent: {}
+[36.757447] (-) TimerEvent: {}
+[36.858154] (-) TimerEvent: {}
+[36.958830] (-) TimerEvent: {}
+[37.059524] (-) TimerEvent: {}
+[37.160234] (-) TimerEvent: {}
+[37.261079] (-) TimerEvent: {}
+[37.361814] (-) TimerEvent: {}
+[37.462509] (-) TimerEvent: {}
+[37.563214] (-) TimerEvent: {}
+[37.663912] (-) TimerEvent: {}
+[37.764624] (-) TimerEvent: {}
+[37.865339] (-) TimerEvent: {}
+[37.966072] (-) TimerEvent: {}
+[38.066767] (-) TimerEvent: {}
+[38.167474] (-) TimerEvent: {}
+[38.268193] (-) TimerEvent: {}
+[38.368872] (-) TimerEvent: {}
+[38.469541] (-) TimerEvent: {}
+[38.570261] (-) TimerEvent: {}
+[38.670958] (-) TimerEvent: {}
+[38.771671] (-) TimerEvent: {}
+[38.872367] (-) TimerEvent: {}
+[38.973060] (-) TimerEvent: {}
+[39.073781] (-) TimerEvent: {}
+[39.174461] (-) TimerEvent: {}
+[39.275158] (-) TimerEvent: {}
+[39.375820] (-) TimerEvent: {}
+[39.476522] (-) TimerEvent: {}
+[39.577239] (-) TimerEvent: {}
+[39.677974] (-) TimerEvent: {}
+[39.778694] (-) TimerEvent: {}
+[39.879379] (-) TimerEvent: {}
+[39.980068] (-) TimerEvent: {}
+[40.080743] (-) TimerEvent: {}
+[40.181461] (-) TimerEvent: {}
+[40.282193] (-) TimerEvent: {}
+[40.382894] (-) TimerEvent: {}
+[40.483628] (-) TimerEvent: {}
+[40.584311] (-) TimerEvent: {}
+[40.685035] (-) TimerEvent: {}
+[40.785780] (-) TimerEvent: {}
+[40.886464] (-) TimerEvent: {}
+[40.987113] (-) TimerEvent: {}
+[41.087798] (-) TimerEvent: {}
+[41.188486] (-) TimerEvent: {}
+[41.289202] (-) TimerEvent: {}
+[41.389906] (-) TimerEvent: {}
+[41.490640] (-) TimerEvent: {}
+[41.591348] (-) TimerEvent: {}
+[41.692071] (-) TimerEvent: {}
+[41.792765] (-) TimerEvent: {}
+[41.893469] (-) TimerEvent: {}
+[41.994191] (-) TimerEvent: {}
+[42.094838] (-) TimerEvent: {}
+[42.195516] (-) TimerEvent: {}
+[42.296226] (-) TimerEvent: {}
+[42.396940] (-) TimerEvent: {}
+[42.497653] (-) TimerEvent: {}
+[42.598410] (-) TimerEvent: {}
+[42.699157] (-) TimerEvent: {}
+[42.799870] (-) TimerEvent: {}
+[42.900549] (-) TimerEvent: {}
+[43.001241] (-) TimerEvent: {}
+[43.101874] (-) TimerEvent: {}
+[43.202601] (-) TimerEvent: {}
+[43.303250] (-) TimerEvent: {}
+[43.403849] (-) TimerEvent: {}
+[43.504553] (-) TimerEvent: {}
+[43.605254] (-) TimerEvent: {}
+[43.705970] (-) TimerEvent: {}
+[43.806639] (-) TimerEvent: {}
+[43.907321] (-) TimerEvent: {}
+[44.007966] (-) TimerEvent: {}
+[44.108652] (-) TimerEvent: {}
+[44.209347] (-) TimerEvent: {}
+[44.310050] (-) TimerEvent: {}
+[44.410756] (-) TimerEvent: {}
+[44.511468] (-) TimerEvent: {}
+[44.612152] (-) TimerEvent: {}
+[44.712852] (-) TimerEvent: {}
+[44.813538] (-) TimerEvent: {}
+[44.914270] (-) TimerEvent: {}
+[45.014953] (-) TimerEvent: {}
+[45.115638] (-) TimerEvent: {}
+[45.216344] (-) TimerEvent: {}
+[45.317000] (-) TimerEvent: {}
+[45.417745] (-) TimerEvent: {}
+[45.518450] (-) TimerEvent: {}
+[45.619150] (-) TimerEvent: {}
+[45.719792] (-) TimerEvent: {}
+[45.820435] (-) TimerEvent: {}
+[45.921166] (-) TimerEvent: {}
+[46.021861] (-) TimerEvent: {}
+[46.122549] (-) TimerEvent: {}
+[46.223243] (-) TimerEvent: {}
+[46.323930] (-) TimerEvent: {}
+[46.424584] (-) TimerEvent: {}
+[46.525262] (-) TimerEvent: {}
+[46.625964] (-) TimerEvent: {}
+[46.726631] (-) TimerEvent: {}
+[46.827301] (-) TimerEvent: {}
+[46.927960] (-) TimerEvent: {}
+[47.028631] (-) TimerEvent: {}
+[47.129338] (-) TimerEvent: {}
+[47.230060] (-) TimerEvent: {}
+[47.330743] (-) TimerEvent: {}
+[47.431432] (-) TimerEvent: {}
+[47.532143] (-) TimerEvent: {}
+[47.632842] (-) TimerEvent: {}
+[47.733581] (-) TimerEvent: {}
+[47.834311] (-) TimerEvent: {}
+[47.935011] (-) TimerEvent: {}
+[48.035722] (-) TimerEvent: {}
+[48.136432] (-) TimerEvent: {}
+[48.237142] (-) TimerEvent: {}
+[48.337879] (-) TimerEvent: {}
+[48.438601] (-) TimerEvent: {}
+[48.539296] (-) TimerEvent: {}
+[48.640003] (-) TimerEvent: {}
+[48.740692] (-) TimerEvent: {}
+[48.841389] (-) TimerEvent: {}
+[48.942106] (-) TimerEvent: {}
+[49.042827] (-) TimerEvent: {}
+[49.143470] (-) TimerEvent: {}
+[49.244133] (-) TimerEvent: {}
+[49.344828] (-) TimerEvent: {}
+[49.445514] (-) TimerEvent: {}
+[49.546235] (-) TimerEvent: {}
+[49.646945] (-) TimerEvent: {}
+[49.747633] (-) TimerEvent: {}
+[49.848332] (-) TimerEvent: {}
+[49.949067] (-) TimerEvent: {}
+[50.049813] (-) TimerEvent: {}
+[50.150515] (-) TimerEvent: {}
+[50.251212] (-) TimerEvent: {}
+[50.351902] (-) TimerEvent: {}
+[50.452614] (-) TimerEvent: {}
+[50.553324] (-) TimerEvent: {}
+[50.654061] (-) TimerEvent: {}
+[50.754751] (-) TimerEvent: {}
+[50.855426] (-) TimerEvent: {}
+[50.956123] (-) TimerEvent: {}
+[51.056840] (-) TimerEvent: {}
+[51.157518] (-) TimerEvent: {}
+[51.258232] (-) TimerEvent: {}
+[51.358914] (-) TimerEvent: {}
+[51.459562] (-) TimerEvent: {}
+[51.560263] (-) TimerEvent: {}
+[51.660963] (-) TimerEvent: {}
+[51.761665] (-) TimerEvent: {}
+[51.862358] (-) TimerEvent: {}
+[51.963006] (-) TimerEvent: {}
+[52.063690] (-) TimerEvent: {}
+[52.164389] (-) TimerEvent: {}
+[52.265111] (-) TimerEvent: {}
+[52.365823] (-) TimerEvent: {}
+[52.466527] (-) TimerEvent: {}
+[52.567213] (-) TimerEvent: {}
+[52.667907] (-) TimerEvent: {}
+[52.768617] (-) TimerEvent: {}
+[52.869329] (-) TimerEvent: {}
+[52.970064] (-) TimerEvent: {}
+[53.070746] (-) TimerEvent: {}
+[53.171428] (-) TimerEvent: {}
+[53.272093] (-) TimerEvent: {}
+[53.372722] (-) TimerEvent: {}
+[53.473409] (-) TimerEvent: {}
+[53.574097] (-) TimerEvent: {}
+[53.674770] (-) TimerEvent: {}
+[53.775434] (-) TimerEvent: {}
+[53.876083] (-) TimerEvent: {}
+[53.976732] (-) TimerEvent: {}
+[54.077407] (-) TimerEvent: {}
+[54.156051] (zed_components) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX shared library libzed_camera_one_component.so\x1b[0m\n'}
+[54.177583] (-) TimerEvent: {}
+[54.278288] (-) TimerEvent: {}
+[54.378998] (-) TimerEvent: {}
+[54.479700] (-) TimerEvent: {}
+[54.580389] (-) TimerEvent: {}
+[54.681116] (-) TimerEvent: {}
+[54.781869] (-) TimerEvent: {}
+[54.882535] (-) TimerEvent: {}
+[54.983219] (-) TimerEvent: {}
+[55.083910] (-) TimerEvent: {}
+[55.108572] (zed_components) StdoutLine: {'line': b'[ 90%] Built target zed_camera_one_component\n'}
+[55.184107] (-) TimerEvent: {}
+[55.284884] (-) TimerEvent: {}
+[55.385672] (-) TimerEvent: {}
+[55.486494] (-) TimerEvent: {}
+[55.587528] (-) TimerEvent: {}
+[55.688341] (-) TimerEvent: {}
+[55.789146] (-) TimerEvent: {}
+[55.889972] (-) TimerEvent: {}
+[55.990756] (-) TimerEvent: {}
+[56.091548] (-) TimerEvent: {}
+[56.192349] (-) TimerEvent: {}
+[56.293147] (-) TimerEvent: {}
+[56.393977] (-) TimerEvent: {}
+[56.494761] (-) TimerEvent: {}
+[56.595578] (-) TimerEvent: {}
+[56.696375] (-) TimerEvent: {}
+[56.797163] (-) TimerEvent: {}
+[56.897921] (-) TimerEvent: {}
+[56.998692] (-) TimerEvent: {}
+[57.099473] (-) TimerEvent: {}
+[57.200257] (-) TimerEvent: {}
+[57.301030] (-) TimerEvent: {}
+[57.401823] (-) TimerEvent: {}
+[57.502594] (-) TimerEvent: {}
+[57.603381] (-) TimerEvent: {}
+[57.704158] (-) TimerEvent: {}
+[57.804924] (-) TimerEvent: {}
+[57.905676] (-) TimerEvent: {}
+[58.006457] (-) TimerEvent: {}
+[58.107506] (-) TimerEvent: {}
+[58.208339] (-) TimerEvent: {}
+[58.309498] (-) TimerEvent: {}
+[58.410402] (-) TimerEvent: {}
+[58.511458] (-) TimerEvent: {}
+[58.612541] (-) TimerEvent: {}
+[58.713376] (-) TimerEvent: {}
+[58.814441] (-) TimerEvent: {}
+[58.915506] (-) TimerEvent: {}
+[59.016322] (-) TimerEvent: {}
+[59.117107] (-) TimerEvent: {}
+[59.217913] (-) TimerEvent: {}
+[59.318707] (-) TimerEvent: {}
+[59.419515] (-) TimerEvent: {}
+[59.520308] (-) TimerEvent: {}
+[59.621101] (-) TimerEvent: {}
+[59.721901] (-) TimerEvent: {}
+[59.822713] (-) TimerEvent: {}
+[59.923521] (-) TimerEvent: {}
+[60.024295] (-) TimerEvent: {}
+[60.125062] (-) TimerEvent: {}
+[60.225877] (-) TimerEvent: {}
+[60.326675] (-) TimerEvent: {}
+[60.427480] (-) TimerEvent: {}
+[60.528274] (-) TimerEvent: {}
+[60.629069] (-) TimerEvent: {}
+[60.729890] (-) TimerEvent: {}
+[60.830693] (-) TimerEvent: {}
+[60.931496] (-) TimerEvent: {}
+[61.032270] (-) TimerEvent: {}
+[61.133047] (-) TimerEvent: {}
+[61.233876] (-) TimerEvent: {}
+[61.334671] (-) TimerEvent: {}
+[61.435474] (-) TimerEvent: {}
+[61.536280] (-) TimerEvent: {}
+[61.637093] (-) TimerEvent: {}
+[61.737924] (-) TimerEvent: {}
+[61.838734] (-) TimerEvent: {}
+[61.939560] (-) TimerEvent: {}
+[62.040339] (-) TimerEvent: {}
+[62.141122] (-) TimerEvent: {}
+[62.241962] (-) TimerEvent: {}
+[62.342780] (-) TimerEvent: {}
+[62.443590] (-) TimerEvent: {}
+[62.544385] (-) TimerEvent: {}
+[62.645203] (-) TimerEvent: {}
+[62.746024] (-) TimerEvent: {}
+[62.846798] (-) TimerEvent: {}
+[62.947602] (-) TimerEvent: {}
+[63.048368] (-) TimerEvent: {}
+[63.149134] (-) TimerEvent: {}
+[63.249966] (-) TimerEvent: {}
+[63.350761] (-) TimerEvent: {}
+[63.451534] (-) TimerEvent: {}
+[63.552309] (-) TimerEvent: {}
+[63.653096] (-) TimerEvent: {}
+[63.753868] (-) TimerEvent: {}
+[63.854651] (-) TimerEvent: {}
+[63.955442] (-) TimerEvent: {}
+[64.056199] (-) TimerEvent: {}
+[64.156948] (-) TimerEvent: {}
+[64.257757] (-) TimerEvent: {}
+[64.358534] (-) TimerEvent: {}
+[64.459335] (-) TimerEvent: {}
+[64.560124] (-) TimerEvent: {}
+[64.660952] (-) TimerEvent: {}
+[64.761797] (-) TimerEvent: {}
+[64.862594] (-) TimerEvent: {}
+[64.963679] (-) TimerEvent: {}
+[65.064764] (-) TimerEvent: {}
+[65.165883] (-) TimerEvent: {}
+[65.266699] (-) TimerEvent: {}
+[65.367547] (-) TimerEvent: {}
+[65.468386] (-) TimerEvent: {}
+[65.569204] (-) TimerEvent: {}
+[65.670061] (-) TimerEvent: {}
+[65.770881] (-) TimerEvent: {}
+[65.871681] (-) TimerEvent: {}
+[65.972497] (-) TimerEvent: {}
+[66.073323] (-) TimerEvent: {}
+[66.174167] (-) TimerEvent: {}
+[66.275004] (-) TimerEvent: {}
+[66.375855] (-) TimerEvent: {}
+[66.476687] (-) TimerEvent: {}
+[66.577539] (-) TimerEvent: {}
+[66.678389] (-) TimerEvent: {}
+[66.779208] (-) TimerEvent: {}
+[66.880008] (-) TimerEvent: {}
+[66.981079] (-) TimerEvent: {}
+[67.081908] (-) TimerEvent: {}
+[67.182989] (-) TimerEvent: {}
+[67.284075] (-) TimerEvent: {}
+[67.385169] (-) TimerEvent: {}
+[67.486059] (-) TimerEvent: {}
+[67.586904] (-) TimerEvent: {}
+[67.687732] (-) TimerEvent: {}
+[67.788550] (-) TimerEvent: {}
+[67.889352] (-) TimerEvent: {}
+[67.990465] (-) TimerEvent: {}
+[68.091525] (-) TimerEvent: {}
+[68.192612] (-) TimerEvent: {}
+[68.293453] (-) TimerEvent: {}
+[68.394595] (-) TimerEvent: {}
+[68.495446] (-) TimerEvent: {}
+[68.596301] (-) TimerEvent: {}
+[68.697097] (-) TimerEvent: {}
+[68.797880] (-) TimerEvent: {}
+[68.898673] (-) TimerEvent: {}
+[68.999480] (-) TimerEvent: {}
+[69.100288] (-) TimerEvent: {}
+[69.201080] (-) TimerEvent: {}
+[69.301882] (-) TimerEvent: {}
+[69.402691] (-) TimerEvent: {}
+[69.503501] (-) TimerEvent: {}
+[69.604294] (-) TimerEvent: {}
+[69.705096] (-) TimerEvent: {}
+[69.805866] (-) TimerEvent: {}
+[69.906622] (-) TimerEvent: {}
+[70.007426] (-) TimerEvent: {}
+[70.108179] (-) TimerEvent: {}
+[70.208941] (-) TimerEvent: {}
+[70.309779] (-) TimerEvent: {}
+[70.410591] (-) TimerEvent: {}
+[70.511400] (-) TimerEvent: {}
+[70.612214] (-) TimerEvent: {}
+[70.713029] (-) TimerEvent: {}
+[70.813845] (-) TimerEvent: {}
+[70.914630] (-) TimerEvent: {}
+[71.015461] (-) TimerEvent: {}
+[71.116279] (-) TimerEvent: {}
+[71.217090] (-) TimerEvent: {}
+[71.317922] (-) TimerEvent: {}
+[71.418766] (-) TimerEvent: {}
+[71.519609] (-) TimerEvent: {}
+[71.620440] (-) TimerEvent: {}
+[71.721329] (-) TimerEvent: {}
+[71.822462] (-) TimerEvent: {}
+[71.923280] (-) TimerEvent: {}
+[72.024107] (-) TimerEvent: {}
+[72.124918] (-) TimerEvent: {}
+[72.225773] (-) TimerEvent: {}
+[72.326586] (-) TimerEvent: {}
+[72.427391] (-) TimerEvent: {}
+[72.528203] (-) TimerEvent: {}
+[72.629027] (-) TimerEvent: {}
+[72.729866] (-) TimerEvent: {}
+[72.830685] (-) TimerEvent: {}
+[72.931516] (-) TimerEvent: {}
+[73.032340] (-) TimerEvent: {}
+[73.133160] (-) TimerEvent: {}
+[73.234030] (-) TimerEvent: {}
+[73.334842] (-) TimerEvent: {}
+[73.435667] (-) TimerEvent: {}
+[73.536466] (-) TimerEvent: {}
+[73.637260] (-) TimerEvent: {}
+[73.738080] (-) TimerEvent: {}
+[73.838877] (-) TimerEvent: {}
+[73.939668] (-) TimerEvent: {}
+[74.040463] (-) TimerEvent: {}
+[74.141542] (-) TimerEvent: {}
+[74.242386] (-) TimerEvent: {}
+[74.343149] (-) TimerEvent: {}
+[74.443893] (-) TimerEvent: {}
+[74.544643] (-) TimerEvent: {}
+[74.645394] (-) TimerEvent: {}
+[74.746178] (-) TimerEvent: {}
+[74.846928] (-) TimerEvent: {}
+[74.947703] (-) TimerEvent: {}
+[75.048489] (-) TimerEvent: {}
+[75.149280] (-) TimerEvent: {}
+[75.250092] (-) TimerEvent: {}
+[75.350852] (-) TimerEvent: {}
+[75.451606] (-) TimerEvent: {}
+[75.552346] (-) TimerEvent: {}
+[75.653107] (-) TimerEvent: {}
+[75.753895] (-) TimerEvent: {}
+[75.854706] (-) TimerEvent: {}
+[75.955502] (-) TimerEvent: {}
+[76.056274] (-) TimerEvent: {}
+[76.157079] (-) TimerEvent: {}
+[76.257885] (-) TimerEvent: {}
+[76.358672] (-) TimerEvent: {}
+[76.459463] (-) TimerEvent: {}
+[76.560243] (-) TimerEvent: {}
+[76.661034] (-) TimerEvent: {}
+[76.761841] (-) TimerEvent: {}
+[76.862603] (-) TimerEvent: {}
+[76.963393] (-) TimerEvent: {}
+[77.064174] (-) TimerEvent: {}
+[77.164954] (-) TimerEvent: {}
+[77.265780] (-) TimerEvent: {}
+[77.366557] (-) TimerEvent: {}
+[77.467353] (-) TimerEvent: {}
+[77.568151] (-) TimerEvent: {}
+[77.668963] (-) TimerEvent: {}
+[77.769745] (-) TimerEvent: {}
+[77.870501] (-) TimerEvent: {}
+[77.971281] (-) TimerEvent: {}
+[78.072078] (-) TimerEvent: {}
+[78.172857] (-) TimerEvent: {}
+[78.273651] (-) TimerEvent: {}
+[78.374463] (-) TimerEvent: {}
+[78.475251] (-) TimerEvent: {}
+[78.576022] (-) TimerEvent: {}
+[78.676810] (-) TimerEvent: {}
+[78.777572] (-) TimerEvent: {}
+[78.878351] (-) TimerEvent: {}
+[78.979139] (-) TimerEvent: {}
+[79.079913] (-) TimerEvent: {}
+[79.180708] (-) TimerEvent: {}
+[79.281491] (-) TimerEvent: {}
+[79.382310] (-) TimerEvent: {}
+[79.483101] (-) TimerEvent: {}
+[79.583897] (-) TimerEvent: {}
+[79.684690] (-) TimerEvent: {}
+[79.785457] (-) TimerEvent: {}
+[79.886261] (-) TimerEvent: {}
+[79.987033] (-) TimerEvent: {}
+[80.087796] (-) TimerEvent: {}
+[80.188566] (-) TimerEvent: {}
+[80.289365] (-) TimerEvent: {}
+[80.390180] (-) TimerEvent: {}
+[80.490978] (-) TimerEvent: {}
+[80.591776] (-) TimerEvent: {}
+[80.692567] (-) TimerEvent: {}
+[80.793308] (-) TimerEvent: {}
+[80.894090] (-) TimerEvent: {}
+[80.994868] (-) TimerEvent: {}
+[81.095648] (-) TimerEvent: {}
+[81.196449] (-) TimerEvent: {}
+[81.297264] (-) TimerEvent: {}
+[81.398088] (-) TimerEvent: {}
+[81.498872] (-) TimerEvent: {}
+[81.599648] (-) TimerEvent: {}
+[81.700674] (-) TimerEvent: {}
+[81.801444] (-) TimerEvent: {}
+[81.902245] (-) TimerEvent: {}
+[82.003036] (-) TimerEvent: {}
+[82.103817] (-) TimerEvent: {}
+[82.204573] (-) TimerEvent: {}
+[82.305337] (-) TimerEvent: {}
+[82.406140] (-) TimerEvent: {}
+[82.506909] (-) TimerEvent: {}
+[82.607953] (-) TimerEvent: {}
+[82.709012] (-) TimerEvent: {}
+[82.809805] (-) TimerEvent: {}
+[82.910765] (-) TimerEvent: {}
+[83.011579] (-) TimerEvent: {}
+[83.112638] (-) TimerEvent: {}
+[83.213746] (-) TimerEvent: {}
+[83.314538] (-) TimerEvent: {}
+[83.415598] (-) TimerEvent: {}
+[83.516418] (-) TimerEvent: {}
+[83.617498] (-) TimerEvent: {}
+[83.718327] (-) TimerEvent: {}
+[83.819070] (-) TimerEvent: {}
+[83.919825] (-) TimerEvent: {}
+[84.020599] (-) TimerEvent: {}
+[84.121638] (-) TimerEvent: {}
+[84.222504] (-) TimerEvent: {}
+[84.323302] (-) TimerEvent: {}
+[84.424118] (-) TimerEvent: {}
+[84.524943] (-) TimerEvent: {}
+[84.625787] (-) TimerEvent: {}
+[84.726625] (-) TimerEvent: {}
+[84.827398] (-) TimerEvent: {}
+[84.928178] (-) TimerEvent: {}
+[85.029301] (-) TimerEvent: {}
+[85.130160] (-) TimerEvent: {}
+[85.230971] (-) TimerEvent: {}
+[85.331788] (-) TimerEvent: {}
+[85.432599] (-) TimerEvent: {}
+[85.533385] (-) TimerEvent: {}
+[85.634203] (-) TimerEvent: {}
+[85.734986] (-) TimerEvent: {}
+[85.835771] (-) TimerEvent: {}
+[85.936522] (-) TimerEvent: {}
+[86.037308] (-) TimerEvent: {}
+[86.138100] (-) TimerEvent: {}
+[86.238901] (-) TimerEvent: {}
+[86.339731] (-) TimerEvent: {}
+[86.440567] (-) TimerEvent: {}
+[86.541387] (-) TimerEvent: {}
+[86.642270] (-) TimerEvent: {}
+[86.743051] (-) TimerEvent: {}
+[86.843820] (-) TimerEvent: {}
+[86.944600] (-) TimerEvent: {}
+[87.045403] (-) TimerEvent: {}
+[87.146228] (-) TimerEvent: {}
+[87.247016] (-) TimerEvent: {}
+[87.347824] (-) TimerEvent: {}
+[87.448626] (-) TimerEvent: {}
+[87.549732] (-) TimerEvent: {}
+[87.650828] (-) TimerEvent: {}
+[87.751912] (-) TimerEvent: {}
+[87.852718] (-) TimerEvent: {}
+[87.953789] (-) TimerEvent: {}
+[88.054875] (-) TimerEvent: {}
+[88.155717] (-) TimerEvent: {}
+[88.256820] (-) TimerEvent: {}
+[88.357915] (-) TimerEvent: {}
+[88.459001] (-) TimerEvent: {}
+[88.559825] (-) TimerEvent: {}
+[88.660627] (-) TimerEvent: {}
+[88.761451] (-) TimerEvent: {}
+[88.862320] (-) TimerEvent: {}
+[88.963133] (-) TimerEvent: {}
+[89.063945] (-) TimerEvent: {}
+[89.164726] (-) TimerEvent: {}
+[89.265466] (-) TimerEvent: {}
+[89.366305] (-) TimerEvent: {}
+[89.467160] (-) TimerEvent: {}
+[89.567974] (-) TimerEvent: {}
+[89.668786] (-) TimerEvent: {}
+[89.769605] (-) TimerEvent: {}
+[89.870436] (-) TimerEvent: {}
+[89.971243] (-) TimerEvent: {}
+[90.072053] (-) TimerEvent: {}
+[90.172861] (-) TimerEvent: {}
+[90.273663] (-) TimerEvent: {}
+[90.374502] (-) TimerEvent: {}
+[90.475314] (-) TimerEvent: {}
+[90.576149] (-) TimerEvent: {}
+[90.676966] (-) TimerEvent: {}
+[90.777815] (-) TimerEvent: {}
+[90.878634] (-) TimerEvent: {}
+[90.979451] (-) TimerEvent: {}
+[91.080271] (-) TimerEvent: {}
+[91.181066] (-) TimerEvent: {}
+[91.281901] (-) TimerEvent: {}
+[91.382720] (-) TimerEvent: {}
+[91.483553] (-) TimerEvent: {}
+[91.584377] (-) TimerEvent: {}
+[91.685213] (-) TimerEvent: {}
+[91.786028] (-) TimerEvent: {}
+[91.886799] (-) TimerEvent: {}
+[91.987607] (-) TimerEvent: {}
+[92.088428] (-) TimerEvent: {}
+[92.189240] (-) TimerEvent: {}
+[92.290094] (-) TimerEvent: {}
+[92.390947] (-) TimerEvent: {}
+[92.491741] (-) TimerEvent: {}
+[92.592544] (-) TimerEvent: {}
+[92.693365] (-) TimerEvent: {}
+[92.794165] (-) TimerEvent: {}
+[92.894957] (-) TimerEvent: {}
+[92.995776] (-) TimerEvent: {}
+[93.096588] (-) TimerEvent: {}
+[93.197373] (-) TimerEvent: {}
+[93.298147] (-) TimerEvent: {}
+[93.398958] (-) TimerEvent: {}
+[93.499759] (-) TimerEvent: {}
+[93.600564] (-) TimerEvent: {}
+[93.701398] (-) TimerEvent: {}
+[93.802211] (-) TimerEvent: {}
+[93.903248] (-) TimerEvent: {}
+[94.004322] (-) TimerEvent: {}
+[94.105373] (-) TimerEvent: {}
+[94.206254] (-) TimerEvent: {}
+[94.307008] (-) TimerEvent: {}
+[94.407757] (-) TimerEvent: {}
+[94.508534] (-) TimerEvent: {}
+[94.609562] (-) TimerEvent: {}
+[94.710343] (-) TimerEvent: {}
+[94.811051] (-) TimerEvent: {}
+[94.911783] (-) TimerEvent: {}
+[95.012520] (-) TimerEvent: {}
+[95.113263] (-) TimerEvent: {}
+[95.214042] (-) TimerEvent: {}
+[95.314786] (-) TimerEvent: {}
+[95.415530] (-) TimerEvent: {}
+[95.516272] (-) TimerEvent: {}
+[95.617019] (-) TimerEvent: {}
+[95.717806] (-) TimerEvent: {}
+[95.818531] (-) TimerEvent: {}
+[95.919301] (-) TimerEvent: {}
+[96.020069] (-) TimerEvent: {}
+[96.120840] (-) TimerEvent: {}
+[96.221640] (-) TimerEvent: {}
+[96.322449] (-) TimerEvent: {}
+[96.423218] (-) TimerEvent: {}
+[96.523986] (-) TimerEvent: {}
+[96.624759] (-) TimerEvent: {}
+[96.725559] (-) TimerEvent: {}
+[96.826382] (-) TimerEvent: {}
+[96.927377] (-) TimerEvent: {}
+[97.028168] (-) TimerEvent: {}
+[97.128940] (-) TimerEvent: {}
+[97.229694] (-) TimerEvent: {}
+[97.330503] (-) TimerEvent: {}
+[97.431312] (-) TimerEvent: {}
+[97.532099] (-) TimerEvent: {}
+[97.632879] (-) TimerEvent: {}
+[97.733671] (-) TimerEvent: {}
+[97.834481] (-) TimerEvent: {}
+[97.935255] (-) TimerEvent: {}
+[98.036028] (-) TimerEvent: {}
+[98.136802] (-) TimerEvent: {}
+[98.237575] (-) TimerEvent: {}
+[98.338427] (-) TimerEvent: {}
+[98.439185] (-) TimerEvent: {}
+[98.539956] (-) TimerEvent: {}
+[98.640747] (-) TimerEvent: {}
+[98.741546] (-) TimerEvent: {}
+[98.842334] (-) TimerEvent: {}
+[98.943080] (-) TimerEvent: {}
+[99.043830] (-) TimerEvent: {}
+[99.144604] (-) TimerEvent: {}
+[99.245382] (-) TimerEvent: {}
+[99.346183] (-) TimerEvent: {}
+[99.446961] (-) TimerEvent: {}
+[99.547753] (-) TimerEvent: {}
+[99.648527] (-) TimerEvent: {}
+[99.749305] (-) TimerEvent: {}
+[99.850096] (-) TimerEvent: {}
+[99.950849] (-) TimerEvent: {}
+[100.051615] (-) TimerEvent: {}
+[100.152391] (-) TimerEvent: {}
+[100.253169] (-) TimerEvent: {}
+[100.353979] (-) TimerEvent: {}
+[100.454767] (-) TimerEvent: {}
+[100.555532] (-) TimerEvent: {}
+[100.656308] (-) TimerEvent: {}
+[100.757072] (-) TimerEvent: {}
+[100.857857] (-) TimerEvent: {}
+[100.958631] (-) TimerEvent: {}
+[101.059444] (-) TimerEvent: {}
+[101.160225] (-) TimerEvent: {}
+[101.261039] (-) TimerEvent: {}
+[101.361850] (-) TimerEvent: {}
+[101.462612] (-) TimerEvent: {}
+[101.563383] (-) TimerEvent: {}
+[101.664152] (-) TimerEvent: {}
+[101.764939] (-) TimerEvent: {}
+[101.865743] (-) TimerEvent: {}
+[101.966502] (-) TimerEvent: {}
+[102.067293] (-) TimerEvent: {}
+[102.168060] (-) TimerEvent: {}
+[102.268841] (-) TimerEvent: {}
+[102.369601] (-) TimerEvent: {}
+[102.470385] (-) TimerEvent: {}
+[102.571170] (-) TimerEvent: {}
+[102.671948] (-) TimerEvent: {}
+[102.772739] (-) TimerEvent: {}
+[102.873528] (-) TimerEvent: {}
+[102.974337] (-) TimerEvent: {}
+[103.075130] (-) TimerEvent: {}
+[103.175907] (-) TimerEvent: {}
+[103.276630] (-) TimerEvent: {}
+[103.377326] (-) TimerEvent: {}
+[103.478187] (-) TimerEvent: {}
+[103.578989] (-) TimerEvent: {}
+[103.680037] (-) TimerEvent: {}
+[103.780851] (-) TimerEvent: {}
+[103.881658] (-) TimerEvent: {}
+[103.982497] (-) TimerEvent: {}
+[104.083578] (-) TimerEvent: {}
+[104.184652] (-) TimerEvent: {}
+[104.285475] (-) TimerEvent: {}
+[104.386323] (-) TimerEvent: {}
+[104.487118] (-) TimerEvent: {}
+[104.587942] (-) TimerEvent: {}
+[104.688763] (-) TimerEvent: {}
+[104.789565] (-) TimerEvent: {}
+[104.890409] (-) TimerEvent: {}
+[104.991221] (-) TimerEvent: {}
+[105.092033] (-) TimerEvent: {}
+[105.192850] (-) TimerEvent: {}
+[105.293636] (-) TimerEvent: {}
+[105.394429] (-) TimerEvent: {}
+[105.495243] (-) TimerEvent: {}
+[105.596057] (-) TimerEvent: {}
+[105.696884] (-) TimerEvent: {}
+[105.797783] (-) TimerEvent: {}
+[105.898840] (-) TimerEvent: {}
+[105.999662] (-) TimerEvent: {}
+[106.100475] (-) TimerEvent: {}
+[106.201253] (-) TimerEvent: {}
+[106.302066] (-) TimerEvent: {}
+[106.402850] (-) TimerEvent: {}
+[106.503631] (-) TimerEvent: {}
+[106.604441] (-) TimerEvent: {}
+[106.705237] (-) TimerEvent: {}
+[106.806044] (-) TimerEvent: {}
+[106.906831] (-) TimerEvent: {}
+[107.007633] (-) TimerEvent: {}
+[107.108389] (-) TimerEvent: {}
+[107.209064] (-) TimerEvent: {}
+[107.309748] (-) TimerEvent: {}
+[107.410409] (-) TimerEvent: {}
+[107.511043] (-) TimerEvent: {}
+[107.611655] (-) TimerEvent: {}
+[107.712259] (-) TimerEvent: {}
+[107.812859] (-) TimerEvent: {}
+[107.913465] (-) TimerEvent: {}
+[108.014124] (-) TimerEvent: {}
+[108.114753] (-) TimerEvent: {}
+[108.215376] (-) TimerEvent: {}
+[108.316019] (-) TimerEvent: {}
+[108.416685] (-) TimerEvent: {}
+[108.517370] (-) TimerEvent: {}
+[108.618174] (-) TimerEvent: {}
+[108.719010] (-) TimerEvent: {}
+[108.819776] (-) TimerEvent: {}
+[108.920541] (-) TimerEvent: {}
+[109.021326] (-) TimerEvent: {}
+[109.122096] (-) TimerEvent: {}
+[109.222874] (-) TimerEvent: {}
+[109.323648] (-) TimerEvent: {}
+[109.424438] (-) TimerEvent: {}
+[109.525224] (-) TimerEvent: {}
+[109.626045] (-) TimerEvent: {}
+[109.726822] (-) TimerEvent: {}
+[109.827592] (-) TimerEvent: {}
+[109.928367] (-) TimerEvent: {}
+[110.029154] (-) TimerEvent: {}
+[110.129966] (-) TimerEvent: {}
+[110.230743] (-) TimerEvent: {}
+[110.331523] (-) TimerEvent: {}
+[110.432305] (-) TimerEvent: {}
+[110.533078] (-) TimerEvent: {}
+[110.633888] (-) TimerEvent: {}
+[110.734669] (-) TimerEvent: {}
+[110.835442] (-) TimerEvent: {}
+[110.936210] (-) TimerEvent: {}
+[111.036974] (-) TimerEvent: {}
+[111.137762] (-) TimerEvent: {}
+[111.238532] (-) TimerEvent: {}
+[111.339341] (-) TimerEvent: {}
+[111.440117] (-) TimerEvent: {}
+[111.540900] (-) TimerEvent: {}
+[111.641685] (-) TimerEvent: {}
+[111.742501] (-) TimerEvent: {}
+[111.843284] (-) TimerEvent: {}
+[111.944046] (-) TimerEvent: {}
+[112.044843] (-) TimerEvent: {}
+[112.145629] (-) TimerEvent: {}
+[112.246436] (-) TimerEvent: {}
+[112.347221] (-) TimerEvent: {}
+[112.448014] (-) TimerEvent: {}
+[112.548800] (-) TimerEvent: {}
+[112.649596] (-) TimerEvent: {}
+[112.750413] (-) TimerEvent: {}
+[112.851192] (-) TimerEvent: {}
+[112.951962] (-) TimerEvent: {}
+[113.052739] (-) TimerEvent: {}
+[113.153525] (-) TimerEvent: {}
+[113.254316] (-) TimerEvent: {}
+[113.355088] (-) TimerEvent: {}
+[113.455883] (-) TimerEvent: {}
+[113.556663] (-) TimerEvent: {}
+[113.657439] (-) TimerEvent: {}
+[113.758274] (-) TimerEvent: {}
+[113.859040] (-) TimerEvent: {}
+[113.959807] (-) TimerEvent: {}
+[114.060607] (-) TimerEvent: {}
+[114.161404] (-) TimerEvent: {}
+[114.262225] (-) TimerEvent: {}
+[114.363023] (-) TimerEvent: {}
+[114.463833] (-) TimerEvent: {}
+[114.564650] (-) TimerEvent: {}
+[114.665413] (-) TimerEvent: {}
+[114.766203] (-) TimerEvent: {}
+[114.866996] (-) TimerEvent: {}
+[114.967793] (-) TimerEvent: {}
+[115.068599] (-) TimerEvent: {}
+[115.169420] (-) TimerEvent: {}
+[115.270243] (-) TimerEvent: {}
+[115.371045] (-) TimerEvent: {}
+[115.471840] (-) TimerEvent: {}
+[115.572644] (-) TimerEvent: {}
+[115.673431] (-) TimerEvent: {}
+[115.774247] (-) TimerEvent: {}
+[115.875027] (-) TimerEvent: {}
+[115.975800] (-) TimerEvent: {}
+[116.076584] (-) TimerEvent: {}
+[116.177374] (-) TimerEvent: {}
+[116.278195] (-) TimerEvent: {}
+[116.378963] (-) TimerEvent: {}
+[116.479719] (-) TimerEvent: {}
+[116.580445] (-) TimerEvent: {}
+[116.681100] (-) TimerEvent: {}
+[116.781658] (-) TimerEvent: {}
+[116.882208] (-) TimerEvent: {}
+[116.982740] (-) TimerEvent: {}
+[117.083310] (-) TimerEvent: {}
+[117.183975] (-) TimerEvent: {}
+[117.284601] (-) TimerEvent: {}
+[117.385276] (-) TimerEvent: {}
+[117.485786] (-) TimerEvent: {}
+[117.586522] (-) TimerEvent: {}
+[117.687147] (-) TimerEvent: {}
+[117.788212] (-) TimerEvent: {}
+[117.889002] (-) TimerEvent: {}
+[117.989838] (-) TimerEvent: {}
+[118.090627] (-) TimerEvent: {}
+[118.191429] (-) TimerEvent: {}
+[118.292249] (-) TimerEvent: {}
+[118.393074] (-) TimerEvent: {}
+[118.493914] (-) TimerEvent: {}
+[118.594729] (-) TimerEvent: {}
+[118.695526] (-) TimerEvent: {}
+[118.796348] (-) TimerEvent: {}
+[118.897455] (-) TimerEvent: {}
+[118.998291] (-) TimerEvent: {}
+[119.099098] (-) TimerEvent: {}
+[119.199898] (-) TimerEvent: {}
+[119.300677] (-) TimerEvent: {}
+[119.401456] (-) TimerEvent: {}
+[119.502275] (-) TimerEvent: {}
+[119.603086] (-) TimerEvent: {}
+[119.703902] (-) TimerEvent: {}
+[119.804726] (-) TimerEvent: {}
+[119.905546] (-) TimerEvent: {}
+[120.006388] (-) TimerEvent: {}
+[120.107699] (-) TimerEvent: {}
+[120.208699] (-) TimerEvent: {}
+[120.309459] (-) TimerEvent: {}
+[120.410288] (-) TimerEvent: {}
+[120.511084] (-) TimerEvent: {}
+[120.611882] (-) TimerEvent: {}
+[120.712663] (-) TimerEvent: {}
+[120.813462] (-) TimerEvent: {}
+[120.914287] (-) TimerEvent: {}
+[121.015092] (-) TimerEvent: {}
+[121.115894] (-) TimerEvent: {}
+[121.216680] (-) TimerEvent: {}
+[121.317428] (-) TimerEvent: {}
+[121.418454] (-) TimerEvent: {}
+[121.519465] (-) TimerEvent: {}
+[121.620286] (-) TimerEvent: {}
+[121.721106] (-) TimerEvent: {}
+[121.821921] (-) TimerEvent: {}
+[121.922729] (-) TimerEvent: {}
+[122.023539] (-) TimerEvent: {}
+[122.124360] (-) TimerEvent: {}
+[122.225173] (-) TimerEvent: {}
+[122.325997] (-) TimerEvent: {}
+[122.426798] (-) TimerEvent: {}
+[122.527593] (-) TimerEvent: {}
+[122.628370] (-) TimerEvent: {}
+[122.729143] (-) TimerEvent: {}
+[122.829910] (-) TimerEvent: {}
+[122.930663] (-) TimerEvent: {}
+[123.031444] (-) TimerEvent: {}
+[123.132230] (-) TimerEvent: {}
+[123.233021] (-) TimerEvent: {}
+[123.333844] (-) TimerEvent: {}
+[123.434614] (-) TimerEvent: {}
+[123.535391] (-) TimerEvent: {}
+[123.636181] (-) TimerEvent: {}
+[123.736964] (-) TimerEvent: {}
+[123.837761] (-) TimerEvent: {}
+[123.938519] (-) TimerEvent: {}
+[124.039308] (-) TimerEvent: {}
+[124.140077] (-) TimerEvent: {}
+[124.240925] (-) TimerEvent: {}
+[124.341745] (-) TimerEvent: {}
+[124.442515] (-) TimerEvent: {}
+[124.543311] (-) TimerEvent: {}
+[124.644116] (-) TimerEvent: {}
+[124.744907] (-) TimerEvent: {}
+[124.845676] (-) TimerEvent: {}
+[124.946474] (-) TimerEvent: {}
+[125.047278] (-) TimerEvent: {}
+[125.148085] (-) TimerEvent: {}
+[125.248877] (-) TimerEvent: {}
+[125.349657] (-) TimerEvent: {}
+[125.450479] (-) TimerEvent: {}
+[125.551276] (-) TimerEvent: {}
+[125.652079] (-) TimerEvent: {}
+[125.752883] (-) TimerEvent: {}
+[125.853663] (-) TimerEvent: {}
+[125.954477] (-) TimerEvent: {}
+[126.055276] (-) TimerEvent: {}
+[126.156054] (-) TimerEvent: {}
+[126.256866] (-) TimerEvent: {}
+[126.357673] (-) TimerEvent: {}
+[126.458482] (-) TimerEvent: {}
+[126.559214] (-) TimerEvent: {}
+[126.659910] (-) TimerEvent: {}
+[126.760603] (-) TimerEvent: {}
+[126.861274] (-) TimerEvent: {}
+[126.961967] (-) TimerEvent: {}
+[127.062675] (-) TimerEvent: {}
+[127.163436] (-) TimerEvent: {}
+[127.264215] (-) TimerEvent: {}
+[127.365013] (-) TimerEvent: {}
+[127.465834] (-) TimerEvent: {}
+[127.566628] (-) TimerEvent: {}
+[127.667416] (-) TimerEvent: {}
+[127.768216] (-) TimerEvent: {}
+[127.868996] (-) TimerEvent: {}
+[127.969834] (-) TimerEvent: {}
+[128.070627] (-) TimerEvent: {}
+[128.171417] (-) TimerEvent: {}
+[128.272215] (-) TimerEvent: {}
+[128.373022] (-) TimerEvent: {}
+[128.473838] (-) TimerEvent: {}
+[128.574646] (-) TimerEvent: {}
+[128.675424] (-) TimerEvent: {}
+[128.776201] (-) TimerEvent: {}
+[128.876976] (-) TimerEvent: {}
+[128.977848] (-) TimerEvent: {}
+[129.078616] (-) TimerEvent: {}
+[129.179401] (-) TimerEvent: {}
+[129.280173] (-) TimerEvent: {}
+[129.380969] (-) TimerEvent: {}
+[129.481779] (-) TimerEvent: {}
+[129.582553] (-) TimerEvent: {}
+[129.683370] (-) TimerEvent: {}
+[129.784165] (-) TimerEvent: {}
+[129.884934] (-) TimerEvent: {}
+[129.985751] (-) TimerEvent: {}
+[130.086546] (-) TimerEvent: {}
+[130.187315] (-) TimerEvent: {}
+[130.288079] (-) TimerEvent: {}
+[130.388873] (-) TimerEvent: {}
+[130.489694] (-) TimerEvent: {}
+[130.590444] (-) TimerEvent: {}
+[130.691206] (-) TimerEvent: {}
+[130.792017] (-) TimerEvent: {}
+[130.892764] (-) TimerEvent: {}
+[130.993504] (-) TimerEvent: {}
+[131.094281] (-) TimerEvent: {}
+[131.195334] (-) TimerEvent: {}
+[131.296396] (-) TimerEvent: {}
+[131.397187] (-) TimerEvent: {}
+[131.497968] (-) TimerEvent: {}
+[131.598721] (-) TimerEvent: {}
+[131.699762] (-) TimerEvent: {}
+[131.800584] (-) TimerEvent: {}
+[131.901341] (-) TimerEvent: {}
+[132.002086] (-) TimerEvent: {}
+[132.102844] (-) TimerEvent: {}
+[132.203660] (-) TimerEvent: {}
+[132.304449] (-) TimerEvent: {}
+[132.405181] (-) TimerEvent: {}
+[132.505958] (-) TimerEvent: {}
+[132.606679] (-) TimerEvent: {}
+[132.707675] (-) TimerEvent: {}
+[132.808444] (-) TimerEvent: {}
+[132.909192] (-) TimerEvent: {}
+[133.009979] (-) TimerEvent: {}
+[133.111006] (-) TimerEvent: {}
+[133.211795] (-) TimerEvent: {}
+[133.312568] (-) TimerEvent: {}
+[133.413379] (-) TimerEvent: {}
+[133.514201] (-) TimerEvent: {}
+[133.614963] (-) TimerEvent: {}
+[133.715733] (-) TimerEvent: {}
+[133.816502] (-) TimerEvent: {}
+[133.917303] (-) TimerEvent: {}
+[134.018123] (-) TimerEvent: {}
+[134.118907] (-) TimerEvent: {}
+[134.219691] (-) TimerEvent: {}
+[134.320444] (-) TimerEvent: {}
+[134.421190] (-) TimerEvent: {}
+[134.521976] (-) TimerEvent: {}
+[134.622762] (-) TimerEvent: {}
+[134.723556] (-) TimerEvent: {}
+[134.824357] (-) TimerEvent: {}
+[134.925169] (-) TimerEvent: {}
+[135.026001] (-) TimerEvent: {}
+[135.126817] (-) TimerEvent: {}
+[135.227578] (-) TimerEvent: {}
+[135.328360] (-) TimerEvent: {}
+[135.429163] (-) TimerEvent: {}
+[135.529983] (-) TimerEvent: {}
+[135.630726] (-) TimerEvent: {}
+[135.731492] (-) TimerEvent: {}
+[135.832303] (-) TimerEvent: {}
+[135.933112] (-) TimerEvent: {}
+[136.033928] (-) TimerEvent: {}
+[136.134722] (-) TimerEvent: {}
+[136.235499] (-) TimerEvent: {}
+[136.336275] (-) TimerEvent: {}
+[136.437050] (-) TimerEvent: {}
+[136.537839] (-) TimerEvent: {}
+[136.638624] (-) TimerEvent: {}
+[136.739390] (-) TimerEvent: {}
+[136.840167] (-) TimerEvent: {}
+[136.940947] (-) TimerEvent: {}
+[137.041788] (-) TimerEvent: {}
+[137.142650] (-) TimerEvent: {}
+[137.243423] (-) TimerEvent: {}
+[137.344195] (-) TimerEvent: {}
+[137.444962] (-) TimerEvent: {}
+[137.545840] (-) TimerEvent: {}
+[137.646605] (-) TimerEvent: {}
+[137.747348] (-) TimerEvent: {}
+[137.848150] (-) TimerEvent: {}
+[137.948936] (-) TimerEvent: {}
+[138.049725] (-) TimerEvent: {}
+[138.150502] (-) TimerEvent: {}
+[138.251278] (-) TimerEvent: {}
+[138.352062] (-) TimerEvent: {}
+[138.452847] (-) TimerEvent: {}
+[138.553624] (-) TimerEvent: {}
+[138.654426] (-) TimerEvent: {}
+[138.755194] (-) TimerEvent: {}
+[138.855952] (-) TimerEvent: {}
+[138.956698] (-) TimerEvent: {}
+[139.057465] (-) TimerEvent: {}
+[139.158239] (-) TimerEvent: {}
+[139.258988] (-) TimerEvent: {}
+[139.359754] (-) TimerEvent: {}
+[139.460547] (-) TimerEvent: {}
+[139.561340] (-) TimerEvent: {}
+[139.662206] (-) TimerEvent: {}
+[139.763005] (-) TimerEvent: {}
+[139.863762] (-) TimerEvent: {}
+[139.964526] (-) TimerEvent: {}
+[140.065318] (-) TimerEvent: {}
+[140.166127] (-) TimerEvent: {}
+[140.266930] (-) TimerEvent: {}
+[140.367713] (-) TimerEvent: {}
+[140.468502] (-) TimerEvent: {}
+[140.569292] (-) TimerEvent: {}
+[140.670139] (-) TimerEvent: {}
+[140.770934] (-) TimerEvent: {}
+[140.871699] (-) TimerEvent: {}
+[140.972454] (-) TimerEvent: {}
+[141.073249] (-) TimerEvent: {}
+[141.174069] (-) TimerEvent: {}
+[141.274858] (-) TimerEvent: {}
+[141.375647] (-) TimerEvent: {}
+[141.476445] (-) TimerEvent: {}
+[141.577235] (-) TimerEvent: {}
+[141.678067] (-) TimerEvent: {}
+[141.778846] (-) TimerEvent: {}
+[141.879649] (-) TimerEvent: {}
+[141.980443] (-) TimerEvent: {}
+[142.081256] (-) TimerEvent: {}
+[142.182046] (-) TimerEvent: {}
+[142.282835] (-) TimerEvent: {}
+[142.383638] (-) TimerEvent: {}
+[142.484446] (-) TimerEvent: {}
+[142.585236] (-) TimerEvent: {}
+[142.686057] (-) TimerEvent: {}
+[142.786838] (-) TimerEvent: {}
+[142.887614] (-) TimerEvent: {}
+[142.988371] (-) TimerEvent: {}
+[143.089182] (-) TimerEvent: {}
+[143.189985] (-) TimerEvent: {}
+[143.290779] (-) TimerEvent: {}
+[143.391578] (-) TimerEvent: {}
+[143.492389] (-) TimerEvent: {}
+[143.593191] (-) TimerEvent: {}
+[143.694020] (-) TimerEvent: {}
+[143.794819] (-) TimerEvent: {}
+[143.895600] (-) TimerEvent: {}
+[143.996370] (-) TimerEvent: {}
+[144.097228] (-) TimerEvent: {}
+[144.198024] (-) TimerEvent: {}
+[144.298802] (-) TimerEvent: {}
+[144.399590] (-) TimerEvent: {}
+[144.500382] (-) TimerEvent: {}
+[144.601152] (-) TimerEvent: {}
+[144.701955] (-) TimerEvent: {}
+[144.802744] (-) TimerEvent: {}
+[144.903528] (-) TimerEvent: {}
+[145.004292] (-) TimerEvent: {}
+[145.105089] (-) TimerEvent: {}
+[145.205880] (-) TimerEvent: {}
+[145.306641] (-) TimerEvent: {}
+[145.407433] (-) TimerEvent: {}
+[145.508223] (-) TimerEvent: {}
+[145.609020] (-) TimerEvent: {}
+[145.709842] (-) TimerEvent: {}
+[145.810626] (-) TimerEvent: {}
+[145.911393] (-) TimerEvent: {}
+[146.012172] (-) TimerEvent: {}
+[146.112963] (-) TimerEvent: {}
+[146.213784] (-) TimerEvent: {}
+[146.314567] (-) TimerEvent: {}
+[146.415338] (-) TimerEvent: {}
+[146.516126] (-) TimerEvent: {}
+[146.616924] (-) TimerEvent: {}
+[146.717732] (-) TimerEvent: {}
+[146.818524] (-) TimerEvent: {}
+[146.919294] (-) TimerEvent: {}
+[147.020065] (-) TimerEvent: {}
+[147.120843] (-) TimerEvent: {}
+[147.221629] (-) TimerEvent: {}
+[147.322366] (-) TimerEvent: {}
+[147.423005] (-) TimerEvent: {}
+[147.523645] (-) TimerEvent: {}
+[147.624331] (-) TimerEvent: {}
+[147.725007] (-) TimerEvent: {}
+[147.825698] (-) TimerEvent: {}
+[147.926425] (-) TimerEvent: {}
+[148.027131] (-) TimerEvent: {}
+[148.127838] (-) TimerEvent: {}
+[148.228534] (-) TimerEvent: {}
+[148.329214] (-) TimerEvent: {}
+[148.429893] (-) TimerEvent: {}
+[148.530552] (-) TimerEvent: {}
+[148.631498] (-) TimerEvent: {}
+[148.732226] (-) TimerEvent: {}
+[148.832931] (-) TimerEvent: {}
+[148.933602] (-) TimerEvent: {}
+[149.034306] (-) TimerEvent: {}
+[149.134977] (-) TimerEvent: {}
+[149.235657] (-) TimerEvent: {}
+[149.336332] (-) TimerEvent: {}
+[149.437010] (-) TimerEvent: {}
+[149.537683] (-) TimerEvent: {}
+[149.638388] (-) TimerEvent: {}
+[149.739083] (-) TimerEvent: {}
+[149.839716] (-) TimerEvent: {}
+[149.940401] (-) TimerEvent: {}
+[150.041097] (-) TimerEvent: {}
+[150.141746] (-) TimerEvent: {}
+[150.242371] (-) TimerEvent: {}
+[150.343027] (-) TimerEvent: {}
+[150.443675] (-) TimerEvent: {}
+[150.544321] (-) TimerEvent: {}
+[150.644950] (-) TimerEvent: {}
+[150.745600] (-) TimerEvent: {}
+[150.846257] (-) TimerEvent: {}
+[150.946905] (-) TimerEvent: {}
+[151.047532] (-) TimerEvent: {}
+[151.148139] (-) TimerEvent: {}
+[151.248809] (-) TimerEvent: {}
+[151.349468] (-) TimerEvent: {}
+[151.450145] (-) TimerEvent: {}
+[151.550798] (-) TimerEvent: {}
+[151.651447] (-) TimerEvent: {}
+[151.752133] (-) TimerEvent: {}
+[151.852913] (-) TimerEvent: {}
+[151.953695] (-) TimerEvent: {}
+[152.054489] (-) TimerEvent: {}
+[152.155245] (-) TimerEvent: {}
+[152.256008] (-) TimerEvent: {}
+[152.356784] (-) TimerEvent: {}
+[152.457537] (-) TimerEvent: {}
+[152.558317] (-) TimerEvent: {}
+[152.659104] (-) TimerEvent: {}
+[152.759812] (-) TimerEvent: {}
+[152.860554] (-) TimerEvent: {}
+[152.961317] (-) TimerEvent: {}
+[153.062109] (-) TimerEvent: {}
+[153.162869] (-) TimerEvent: {}
+[153.263628] (-) TimerEvent: {}
+[153.364381] (-) TimerEvent: {}
+[153.465132] (-) TimerEvent: {}
+[153.565878] (-) TimerEvent: {}
+[153.666616] (-) TimerEvent: {}
+[153.767372] (-) TimerEvent: {}
+[153.868123] (-) TimerEvent: {}
+[153.968867] (-) TimerEvent: {}
+[154.069602] (-) TimerEvent: {}
+[154.170370] (-) TimerEvent: {}
+[154.271146] (-) TimerEvent: {}
+[154.371896] (-) TimerEvent: {}
+[154.472678] (-) TimerEvent: {}
+[154.573454] (-) TimerEvent: {}
+[154.674263] (-) TimerEvent: {}
+[154.775045] (-) TimerEvent: {}
+[154.875799] (-) TimerEvent: {}
+[154.976533] (-) TimerEvent: {}
+[155.077310] (-) TimerEvent: {}
+[155.178105] (-) TimerEvent: {}
+[155.278869] (-) TimerEvent: {}
+[155.379636] (-) TimerEvent: {}
+[155.480401] (-) TimerEvent: {}
+[155.581162] (-) TimerEvent: {}
+[155.681979] (-) TimerEvent: {}
+[155.782762] (-) TimerEvent: {}
+[155.883523] (-) TimerEvent: {}
+[155.984268] (-) TimerEvent: {}
+[156.085050] (-) TimerEvent: {}
+[156.185885] (-) TimerEvent: {}
+[156.286664] (-) TimerEvent: {}
+[156.387434] (-) TimerEvent: {}
+[156.488199] (-) TimerEvent: {}
+[156.588971] (-) TimerEvent: {}
+[156.689773] (-) TimerEvent: {}
+[156.790544] (-) TimerEvent: {}
+[156.891289] (-) TimerEvent: {}
+[156.992034] (-) TimerEvent: {}
+[157.092798] (-) TimerEvent: {}
+[157.193578] (-) TimerEvent: {}
+[157.294345] (-) TimerEvent: {}
+[157.395110] (-) TimerEvent: {}
+[157.495889] (-) TimerEvent: {}
+[157.596668] (-) TimerEvent: {}
+[157.697444] (-) TimerEvent: {}
+[157.798249] (-) TimerEvent: {}
+[157.898985] (-) TimerEvent: {}
+[157.999727] (-) TimerEvent: {}
+[158.100652] (-) TimerEvent: {}
+[158.201395] (-) TimerEvent: {}
+[158.302158] (-) TimerEvent: {}
+[158.402889] (-) TimerEvent: {}
+[158.503625] (-) TimerEvent: {}
+[158.604388] (-) TimerEvent: {}
+[158.705137] (-) TimerEvent: {}
+[158.805880] (-) TimerEvent: {}
+[158.906614] (-) TimerEvent: {}
+[159.007617] (-) TimerEvent: {}
+[159.108449] (-) TimerEvent: {}
+[159.209233] (-) TimerEvent: {}
+[159.310012] (-) TimerEvent: {}
+[159.411028] (-) TimerEvent: {}
+[159.511817] (-) TimerEvent: {}
+[159.612598] (-) TimerEvent: {}
+[159.713396] (-) TimerEvent: {}
+[159.814219] (-) TimerEvent: {}
+[159.914959] (-) TimerEvent: {}
+[160.015700] (-) TimerEvent: {}
+[160.116466] (-) TimerEvent: {}
+[160.217250] (-) TimerEvent: {}
+[160.318330] (-) TimerEvent: {}
+[160.419159] (-) TimerEvent: {}
+[160.519955] (-) TimerEvent: {}
+[160.620730] (-) TimerEvent: {}
+[160.721504] (-) TimerEvent: {}
+[160.822321] (-) TimerEvent: {}
+[160.923081] (-) TimerEvent: {}
+[161.023831] (-) TimerEvent: {}
+[161.124646] (-) TimerEvent: {}
+[161.225419] (-) TimerEvent: {}
+[161.326224] (-) TimerEvent: {}
+[161.426967] (-) TimerEvent: {}
+[161.527732] (-) TimerEvent: {}
+[161.628504] (-) TimerEvent: {}
+[161.729259] (-) TimerEvent: {}
+[161.830043] (-) TimerEvent: {}
+[161.930772] (-) TimerEvent: {}
+[162.031517] (-) TimerEvent: {}
+[162.132281] (-) TimerEvent: {}
+[162.233042] (-) TimerEvent: {}
+[162.333857] (-) TimerEvent: {}
+[162.434629] (-) TimerEvent: {}
+[162.535405] (-) TimerEvent: {}
+[162.636172] (-) TimerEvent: {}
+[162.736931] (-) TimerEvent: {}
+[162.837702] (-) TimerEvent: {}
+[162.938557] (-) TimerEvent: {}
+[163.039333] (-) TimerEvent: {}
+[163.140137] (-) TimerEvent: {}
+[163.240931] (-) TimerEvent: {}
+[163.341700] (-) TimerEvent: {}
+[163.442518] (-) TimerEvent: {}
+[163.543289] (-) TimerEvent: {}
+[163.644041] (-) TimerEvent: {}
+[163.744796] (-) TimerEvent: {}
+[163.845542] (-) TimerEvent: {}
+[163.946298] (-) TimerEvent: {}
+[164.047041] (-) TimerEvent: {}
+[164.147820] (-) TimerEvent: {}
+[164.248607] (-) TimerEvent: {}
+[164.349388] (-) TimerEvent: {}
+[164.450192] (-) TimerEvent: {}
+[164.550953] (-) TimerEvent: {}
+[164.651707] (-) TimerEvent: {}
+[164.752471] (-) TimerEvent: {}
+[164.853221] (-) TimerEvent: {}
+[164.954000] (-) TimerEvent: {}
+[165.054747] (-) TimerEvent: {}
+[165.155513] (-) TimerEvent: {}
+[165.256261] (-) TimerEvent: {}
+[165.357047] (-) TimerEvent: {}
+[165.457862] (-) TimerEvent: {}
+[165.558652] (-) TimerEvent: {}
+[165.659444] (-) TimerEvent: {}
+[165.760229] (-) TimerEvent: {}
+[165.861025] (-) TimerEvent: {}
+[165.961827] (-) TimerEvent: {}
+[166.062604] (-) TimerEvent: {}
+[166.163383] (-) TimerEvent: {}
+[166.264186] (-) TimerEvent: {}
+[166.364981] (-) TimerEvent: {}
+[166.465795] (-) TimerEvent: {}
+[166.566582] (-) TimerEvent: {}
+[166.667381] (-) TimerEvent: {}
+[166.768171] (-) TimerEvent: {}
+[166.868924] (-) TimerEvent: {}
+[166.969692] (-) TimerEvent: {}
+[167.070528] (-) TimerEvent: {}
+[167.171328] (-) TimerEvent: {}
+[167.272126] (-) TimerEvent: {}
+[167.372915] (-) TimerEvent: {}
+[167.473744] (-) TimerEvent: {}
+[167.574782] (-) TimerEvent: {}
+[167.675641] (-) TimerEvent: {}
+[167.776714] (-) TimerEvent: {}
+[167.877803] (-) TimerEvent: {}
+[167.978616] (-) TimerEvent: {}
+[168.079667] (-) TimerEvent: {}
+[168.180731] (-) TimerEvent: {}
+[168.281531] (-) TimerEvent: {}
+[168.382631] (-) TimerEvent: {}
+[168.483438] (-) TimerEvent: {}
+[168.584525] (-) TimerEvent: {}
+[168.685585] (-) TimerEvent: {}
+[168.786451] (-) TimerEvent: {}
+[168.887547] (-) TimerEvent: {}
+[168.988626] (-) TimerEvent: {}
+[169.089452] (-) TimerEvent: {}
+[169.190298] (-) TimerEvent: {}
+[169.291096] (-) TimerEvent: {}
+[169.392177] (-) TimerEvent: {}
+[169.492936] (-) TimerEvent: {}
+[169.593960] (-) TimerEvent: {}
+[169.694771] (-) TimerEvent: {}
+[169.795851] (-) TimerEvent: {}
+[169.896637] (-) TimerEvent: {}
+[169.997407] (-) TimerEvent: {}
+[170.098211] (-) TimerEvent: {}
+[170.198963] (-) TimerEvent: {}
+[170.299751] (-) TimerEvent: {}
+[170.400535] (-) TimerEvent: {}
+[170.501329] (-) TimerEvent: {}
+[170.602125] (-) TimerEvent: {}
+[170.702907] (-) TimerEvent: {}
+[170.803674] (-) TimerEvent: {}
+[170.904432] (-) TimerEvent: {}
+[171.005178] (-) TimerEvent: {}
+[171.105994] (-) TimerEvent: {}
+[171.206786] (-) TimerEvent: {}
+[171.307572] (-) TimerEvent: {}
+[171.408374] (-) TimerEvent: {}
+[171.509167] (-) TimerEvent: {}
+[171.609978] (-) TimerEvent: {}
+[171.710787] (-) TimerEvent: {}
+[171.811586] (-) TimerEvent: {}
+[171.912359] (-) TimerEvent: {}
+[172.013118] (-) TimerEvent: {}
+[172.113921] (-) TimerEvent: {}
+[172.214703] (-) TimerEvent: {}
+[172.315495] (-) TimerEvent: {}
+[172.416288] (-) TimerEvent: {}
+[172.517021] (-) TimerEvent: {}
+[172.617747] (-) TimerEvent: {}
+[172.718410] (-) TimerEvent: {}
+[172.819083] (-) TimerEvent: {}
+[172.919852] (-) TimerEvent: {}
+[173.020618] (-) TimerEvent: {}
+[173.121416] (-) TimerEvent: {}
+[173.222239] (-) TimerEvent: {}
+[173.323011] (-) TimerEvent: {}
+[173.424072] (-) TimerEvent: {}
+[173.524872] (-) TimerEvent: {}
+[173.625650] (-) TimerEvent: {}
+[173.726421] (-) TimerEvent: {}
+[173.827202] (-) TimerEvent: {}
+[173.928231] (-) TimerEvent: {}
+[174.029026] (-) TimerEvent: {}
+[174.129869] (-) TimerEvent: {}
+[174.230613] (-) TimerEvent: {}
+[174.331391] (-) TimerEvent: {}
+[174.432093] (-) TimerEvent: {}
+[174.532782] (-) TimerEvent: {}
+[174.633444] (-) TimerEvent: {}
+[174.734109] (-) TimerEvent: {}
+[174.834757] (-) TimerEvent: {}
+[174.935645] (-) TimerEvent: {}
+[175.036326] (-) TimerEvent: {}
+[175.137124] (-) TimerEvent: {}
+[175.237920] (-) TimerEvent: {}
+[175.338721] (-) TimerEvent: {}
+[175.439514] (-) TimerEvent: {}
+[175.540299] (-) TimerEvent: {}
+[175.641104] (-) TimerEvent: {}
+[175.741919] (-) TimerEvent: {}
+[175.842811] (-) TimerEvent: {}
+[175.943598] (-) TimerEvent: {}
+[176.044384] (-) TimerEvent: {}
+[176.145162] (-) TimerEvent: {}
+[176.245989] (-) TimerEvent: {}
+[176.346794] (-) TimerEvent: {}
+[176.447585] (-) TimerEvent: {}
+[176.548379] (-) TimerEvent: {}
+[176.649103] (-) TimerEvent: {}
+[176.749795] (-) TimerEvent: {}
+[176.850521] (-) TimerEvent: {}
+[176.951230] (-) TimerEvent: {}
+[177.051989] (-) TimerEvent: {}
+[177.152788] (-) TimerEvent: {}
+[177.253540] (-) TimerEvent: {}
+[177.354284] (-) TimerEvent: {}
+[177.455038] (-) TimerEvent: {}
+[177.555802] (-) TimerEvent: {}
+[177.656578] (-) TimerEvent: {}
+[177.757358] (-) TimerEvent: {}
+[177.858153] (-) TimerEvent: {}
+[177.958917] (-) TimerEvent: {}
+[178.059687] (-) TimerEvent: {}
+[178.160468] (-) TimerEvent: {}
+[178.261232] (-) TimerEvent: {}
+[178.362027] (-) TimerEvent: {}
+[178.462815] (-) TimerEvent: {}
+[178.563601] (-) TimerEvent: {}
+[178.664399] (-) TimerEvent: {}
+[178.765195] (-) TimerEvent: {}
+[178.865989] (-) TimerEvent: {}
+[178.966760] (-) TimerEvent: {}
+[179.067534] (-) TimerEvent: {}
+[179.168332] (-) TimerEvent: {}
+[179.269108] (-) TimerEvent: {}
+[179.369997] (-) TimerEvent: {}
+[179.470775] (-) TimerEvent: {}
+[179.571566] (-) TimerEvent: {}
+[179.672334] (-) TimerEvent: {}
+[179.773101] (-) TimerEvent: {}
+[179.873872] (-) TimerEvent: {}
+[179.974635] (-) TimerEvent: {}
+[180.075414] (-) TimerEvent: {}
+[180.176139] (-) TimerEvent: {}
+[180.276833] (-) TimerEvent: {}
+[180.377605] (-) TimerEvent: {}
+[180.478397] (-) TimerEvent: {}
+[180.579168] (-) TimerEvent: {}
+[180.679918] (-) TimerEvent: {}
+[180.780666] (-) TimerEvent: {}
+[180.881428] (-) TimerEvent: {}
+[180.982218] (-) TimerEvent: {}
+[181.082986] (-) TimerEvent: {}
+[181.183770] (-) TimerEvent: {}
+[181.284526] (-) TimerEvent: {}
+[181.385288] (-) TimerEvent: {}
+[181.486093] (-) TimerEvent: {}
+[181.586873] (-) TimerEvent: {}
+[181.687636] (-) TimerEvent: {}
+[181.788414] (-) TimerEvent: {}
+[181.889175] (-) TimerEvent: {}
+[181.989957] (-) TimerEvent: {}
+[182.090740] (-) TimerEvent: {}
+[182.191507] (-) TimerEvent: {}
+[182.292268] (-) TimerEvent: {}
+[182.393020] (-) TimerEvent: {}
+[182.493797] (-) TimerEvent: {}
+[182.594581] (-) TimerEvent: {}
+[182.695357] (-) TimerEvent: {}
+[182.796131] (-) TimerEvent: {}
+[182.896911] (-) TimerEvent: {}
+[182.997731] (-) TimerEvent: {}
+[183.098505] (-) TimerEvent: {}
+[183.199265] (-) TimerEvent: {}
+[183.299950] (-) TimerEvent: {}
+[183.400588] (-) TimerEvent: {}
+[183.501296] (-) TimerEvent: {}
+[183.602047] (-) TimerEvent: {}
+[183.702815] (-) TimerEvent: {}
+[183.803546] (-) TimerEvent: {}
+[183.904196] (-) TimerEvent: {}
+[184.004849] (-) TimerEvent: {}
+[184.105487] (-) TimerEvent: {}
+[184.206139] (-) TimerEvent: {}
+[184.306736] (-) TimerEvent: {}
+[184.407346] (-) TimerEvent: {}
+[184.507974] (-) TimerEvent: {}
+[184.608585] (-) TimerEvent: {}
+[184.709193] (-) TimerEvent: {}
+[184.809812] (-) TimerEvent: {}
+[184.910412] (-) TimerEvent: {}
+[185.011011] (-) TimerEvent: {}
+[185.111608] (-) TimerEvent: {}
+[185.212215] (-) TimerEvent: {}
+[185.312806] (-) TimerEvent: {}
+[185.413381] (-) TimerEvent: {}
+[185.513966] (-) TimerEvent: {}
+[185.614535] (-) TimerEvent: {}
+[185.715108] (-) TimerEvent: {}
+[185.815701] (-) TimerEvent: {}
+[185.916291] (-) TimerEvent: {}
+[186.016889] (-) TimerEvent: {}
+[186.117463] (-) TimerEvent: {}
+[186.218068] (-) TimerEvent: {}
+[186.318651] (-) TimerEvent: {}
+[186.419229] (-) TimerEvent: {}
+[186.519855] (-) TimerEvent: {}
+[186.620512] (-) TimerEvent: {}
+[186.721180] (-) TimerEvent: {}
+[186.821893] (-) TimerEvent: {}
+[186.922551] (-) TimerEvent: {}
+[187.023206] (-) TimerEvent: {}
+[187.043751] (zed_components) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libzed_camera_component.so\x1b[0m\n'}
+[187.123384] (-) TimerEvent: {}
+[187.224044] (-) TimerEvent: {}
+[187.324748] (-) TimerEvent: {}
+[187.425452] (-) TimerEvent: {}
+[187.526224] (-) TimerEvent: {}
+[187.626946] (-) TimerEvent: {}
+[187.727650] (-) TimerEvent: {}
+[187.828353] (-) TimerEvent: {}
+[187.929057] (-) TimerEvent: {}
+[188.029746] (-) TimerEvent: {}
+[188.130435] (-) TimerEvent: {}
+[188.231137] (-) TimerEvent: {}
+[188.331860] (-) TimerEvent: {}
+[188.432501] (-) TimerEvent: {}
+[188.513081] (zed_components) StdoutLine: {'line': b'[100%] Built target zed_camera_component\n'}
+[188.532624] (-) TimerEvent: {}
+[188.539009] (zed_components) CommandEnded: {'returncode': 0}
+[188.541181] (zed_components) JobProgress: {'identifier': 'zed_components', 'progress': 'install'}
+[188.561726] (zed_components) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components'], 'cwd': '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nourstalgie'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.1.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/nourstalgie'), ('OLDPWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2673'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nourstalgie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nourstalgie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2492,unix/ubuntu:/tmp/.ICE-unix/2492'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e89456ba_dd82_4128_b44d_d028b896d7c1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[188.580580] (zed_components) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[188.581589] (zed_components) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[188.582358] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/lib/libzed_camera_component.so\n'}
+[188.602263] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/lib/libzed_camera_one_component.so\n'}
+[188.623063] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//cost_traversability.hpp\n'}
+[188.632742] (-) TimerEvent: {}
+[188.642908] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//sl_types.hpp\n'}
+[188.662924] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//zed_camera_component.hpp\n'}
+[188.682718] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//zed_camera_one_component.hpp\n'}
+[188.701929] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//gnss_replay.hpp\n'}
+[188.721182] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//json.hpp\n'}
+[188.732880] (-) TimerEvent: {}
+[188.739669] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//sl_logging.hpp\n'}
+[188.759483] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//sl_tools.hpp\n'}
+[188.778677] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//sl_win_avg.hpp\n'}
+[188.797853] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/include/zed_components//visibility_control.hpp\n'}
+[188.817795] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/environment/library_path.sh\n'}
+[188.832992] (-) TimerEvent: {}
+[188.836316] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/environment/library_path.dsv\n'}
+[188.854978] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/ament_index/resource_index/package_run_dependencies/zed_components\n'}
+[188.875142] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/ament_index/resource_index/parent_prefix_path/zed_components\n'}
+[188.893820] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/environment/ament_prefix_path.sh\n'}
+[188.912842] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/environment/ament_prefix_path.dsv\n'}
+[188.931281] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/environment/path.sh\n'}
+[188.933070] (-) TimerEvent: {}
+[188.950156] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/environment/path.dsv\n'}
+[188.969145] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/local_setup.bash\n'}
+[188.987782] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/local_setup.sh\n'}
+[189.006038] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/local_setup.zsh\n'}
+[189.024538] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/local_setup.dsv\n'}
+[189.033212] (-) TimerEvent: {}
+[189.043238] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/package.dsv\n'}
+[189.062324] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/ament_index/resource_index/packages/zed_components\n'}
+[189.081221] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/ament_index/resource_index/rclcpp_components/zed_components\n'}
+[189.100792] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[189.118768] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[189.133344] (-) TimerEvent: {}
+[189.137365] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[189.155757] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig.cmake\n'}
+[189.174247] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/cmake/zed_componentsConfig-version.cmake\n'}
+[189.192453] (zed_components) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/share/zed_components/package.xml\n'}
+[189.215616] (zed_components) CommandEnded: {'returncode': 0}
+[189.233474] (-) TimerEvent: {}
+[189.296655] (zed_components) JobEnded: {'identifier': 'zed_components', 'rc': 0}
+[189.300061] (zed_wrapper) JobStarted: {'identifier': 'zed_wrapper'}
+[189.318939] (zed_wrapper) JobProgress: {'identifier': 'zed_wrapper', 'progress': 'cmake'}
+[189.320567] (zed_wrapper) Command: {'cmd': ['/usr/bin/cmake', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_wrapper', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper'], 'cwd': '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_wrapper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nourstalgie'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.1.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64'), ('HOME', '/home/nourstalgie'), ('OLDPWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2673'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nourstalgie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nourstalgie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2492,unix/ubuntu:/tmp/.ICE-unix/2492'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e89456ba_dd82_4128_b44d_d028b896d7c1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_wrapper'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components:/opt/ros/humble')]), 'shell': False}
+[189.333630] (-) TimerEvent: {}
+[189.433106] (zed_wrapper) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[189.433701] (-) TimerEvent: {}
+[189.534216] (-) TimerEvent: {}
+[189.551627] (zed_wrapper) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[189.572269] (zed_wrapper) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[189.634398] (-) TimerEvent: {}
+[189.721422] (zed_wrapper) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[189.734484] (-) TimerEvent: {}
+[189.746202] (zed_wrapper) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[189.747077] (zed_wrapper) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[189.748390] (zed_wrapper) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[189.759379] (zed_wrapper) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[189.834692] (-) TimerEvent: {}
+[189.925963] (zed_wrapper) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[189.934780] (-) TimerEvent: {}
+[189.951593] (zed_wrapper) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[189.952590] (zed_wrapper) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[189.954219] (zed_wrapper) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[189.960825] (zed_wrapper) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[190.034937] (-) TimerEvent: {}
+[190.135523] (-) TimerEvent: {}
+[190.236153] (-) TimerEvent: {}
+[190.300093] (zed_wrapper) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[190.336251] (-) TimerEvent: {}
+[190.437041] (-) TimerEvent: {}
+[190.446048] (zed_wrapper) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[190.537173] (-) TimerEvent: {}
+[190.637777] (-) TimerEvent: {}
+[190.738386] (-) TimerEvent: {}
+[190.775580] (zed_wrapper) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[190.784779] (zed_wrapper) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[190.801569] (zed_wrapper) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[190.825515] (zed_wrapper) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[190.838434] (-) TimerEvent: {}
+[190.858169] (zed_wrapper) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[190.938574] (-) TimerEvent: {}
+[190.944047] (zed_wrapper) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[190.949261] (zed_wrapper) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[191.038765] (-) TimerEvent: {}
+[191.119189] (zed_wrapper) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[191.138866] (-) TimerEvent: {}
+[191.196639] (zed_wrapper) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[191.239018] (-) TimerEvent: {}
+[191.285415] (zed_wrapper) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[191.301818] (zed_wrapper) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[191.339205] (-) TimerEvent: {}
+[191.439901] (-) TimerEvent: {}
+[191.450788] (zed_wrapper) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[191.451573] (zed_wrapper) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[191.540085] (-) TimerEvent: {}
+[191.609353] (zed_wrapper) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[191.613097] (zed_wrapper) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[191.640187] (-) TimerEvent: {}
+[191.740755] (-) TimerEvent: {}
+[191.841293] (-) TimerEvent: {}
+[191.941920] (-) TimerEvent: {}
+[192.042511] (-) TimerEvent: {}
+[192.079971] (zed_wrapper) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[192.082736] (zed_wrapper) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[192.083159] (zed_wrapper) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[192.142628] (-) TimerEvent: {}
+[192.243146] (-) TimerEvent: {}
+[192.343682] (-) TimerEvent: {}
+[192.444221] (-) TimerEvent: {}
+[192.513695] (zed_wrapper) StdoutLine: {'line': b'-- Configuring done\n'}
+[192.528862] (zed_wrapper) StdoutLine: {'line': b'-- Generating done\n'}
+[192.535364] (zed_wrapper) StdoutLine: {'line': b'-- Build files have been written to: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_wrapper\n'}
+[192.544337] (-) TimerEvent: {}
+[192.567369] (zed_wrapper) CommandEnded: {'returncode': 0}
+[192.569057] (zed_wrapper) JobProgress: {'identifier': 'zed_wrapper', 'progress': 'build'}
+[192.570083] (zed_wrapper) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_wrapper', '--', '-j6', '-l6'], 'cwd': '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_wrapper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nourstalgie'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.1.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64'), ('HOME', '/home/nourstalgie'), ('OLDPWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2673'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nourstalgie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nourstalgie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2492,unix/ubuntu:/tmp/.ICE-unix/2492'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e89456ba_dd82_4128_b44d_d028b896d7c1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_wrapper'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components:/opt/ros/humble')]), 'shell': False}
+[192.644532] (-) TimerEvent: {}
+[192.660874] (zed_wrapper) CommandEnded: {'returncode': 0}
+[192.663397] (zed_wrapper) JobProgress: {'identifier': 'zed_wrapper', 'progress': 'install'}
+[192.664243] (zed_wrapper) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_wrapper'], 'cwd': '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_wrapper', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nourstalgie'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.1.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64'), ('HOME', '/home/nourstalgie'), ('OLDPWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2673'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nourstalgie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nourstalgie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2492,unix/ubuntu:/tmp/.ICE-unix/2492'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e89456ba_dd82_4128_b44d_d028b896d7c1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_wrapper'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components:/opt/ros/humble')]), 'shell': False}
+[192.682799] (zed_wrapper) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[192.683676] (zed_wrapper) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[192.685109] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/config/common_mono.yaml\n'}
+[192.703315] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/config/common_stereo.yaml\n'}
+[192.720532] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/config/ffmpeg.yaml\n'}
+[192.738201] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/config/virtual.yaml\n'}
+[192.744650] (-) TimerEvent: {}
+[192.756685] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/config/zed.yaml\n'}
+[192.774103] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/config/zed2.yaml\n'}
+[192.791737] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/config/zed2i.yaml\n'}
+[192.809993] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/config/zedm.yaml\n'}
+[192.828648] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/config/zedx.yaml\n'}
+[192.844825] (-) TimerEvent: {}
+[192.846726] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/config/zedxm.yaml\n'}
+[192.864648] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/config/zedxone4k.yaml\n'}
+[192.883115] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/config/zedxonegs.yaml\n'}
+[192.901990] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/urdf/include/materials.urdf.xacro\n'}
+[192.920108] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_descr.urdf.xacro\n'}
+[192.938147] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/urdf/zed_macro.urdf.xacro\n'}
+[192.944945] (-) TimerEvent: {}
+[192.956551] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/launch/zed_camera.launch.py\n'}
+[192.975291] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/ament_index/resource_index/package_run_dependencies/zed_wrapper\n'}
+[192.994403] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/ament_index/resource_index/parent_prefix_path/zed_wrapper\n'}
+[193.013042] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.sh\n'}
+[193.031279] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/environment/ament_prefix_path.dsv\n'}
+[193.045063] (-) TimerEvent: {}
+[193.049882] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/environment/path.sh\n'}
+[193.068395] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/environment/path.dsv\n'}
+[193.086415] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/local_setup.bash\n'}
+[193.104052] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/local_setup.sh\n'}
+[193.121829] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/local_setup.zsh\n'}
+[193.139397] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/local_setup.dsv\n'}
+[193.145166] (-) TimerEvent: {}
+[193.157574] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/package.dsv\n'}
+[193.176507] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/ament_index/resource_index/packages/zed_wrapper\n'}
+[193.201529] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig.cmake\n'}
+[193.220523] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/cmake/zed_wrapperConfig-version.cmake\n'}
+[193.239164] (zed_wrapper) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper/share/zed_wrapper/package.xml\n'}
+[193.245308] (-) TimerEvent: {}
+[193.260993] (zed_wrapper) CommandEnded: {'returncode': 0}
+[193.307802] (zed_wrapper) JobEnded: {'identifier': 'zed_wrapper', 'rc': 0}
+[193.311654] (zed_ros2) JobStarted: {'identifier': 'zed_ros2'}
+[193.329474] (zed_ros2) JobProgress: {'identifier': 'zed_ros2', 'progress': 'cmake'}
+[193.330520] (zed_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_ros2'], 'cwd': '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nourstalgie'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.1.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64'), ('HOME', '/home/nourstalgie'), ('OLDPWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2673'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nourstalgie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nourstalgie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2492,unix/ubuntu:/tmp/.ICE-unix/2492'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e89456ba_dd82_4128_b44d_d028b896d7c1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper:/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper:/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components:/opt/ros/humble')]), 'shell': False}
+[193.345460] (-) TimerEvent: {}
+[193.365511] (zed_ros2) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[193.445636] (-) TimerEvent: {}
+[193.546300] (-) TimerEvent: {}
+[193.646909] (-) TimerEvent: {}
+[193.738956] (zed_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[193.747054] (-) TimerEvent: {}
+[193.847600] (-) TimerEvent: {}
+[193.887026] (zed_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[193.947757] (-) TimerEvent: {}
+[194.048355] (-) TimerEvent: {}
+[194.107811] (zed_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[194.148514] (-) TimerEvent: {}
+[194.156849] (zed_ros2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[194.159667] (zed_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[194.161848] (zed_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[194.166034] (zed_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[194.174086] (zed_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[194.178050] (zed_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_ros2\n'}
+[194.185206] (zed_ros2) CommandEnded: {'returncode': 0}
+[194.186843] (zed_ros2) JobProgress: {'identifier': 'zed_ros2', 'progress': 'build'}
+[194.187520] (zed_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_ros2', '--', '-j6', '-l6'], 'cwd': '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nourstalgie'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.1.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64'), ('HOME', '/home/nourstalgie'), ('OLDPWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2673'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nourstalgie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nourstalgie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2492,unix/ubuntu:/tmp/.ICE-unix/2492'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e89456ba_dd82_4128_b44d_d028b896d7c1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper:/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper:/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components:/opt/ros/humble')]), 'shell': False}
+[194.248724] (-) TimerEvent: {}
+[194.266836] (zed_ros2) CommandEnded: {'returncode': 0}
+[194.268968] (zed_ros2) JobProgress: {'identifier': 'zed_ros2', 'progress': 'install'}
+[194.269497] (zed_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_ros2'], 'cwd': '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nourstalgie'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.1.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64'), ('HOME', '/home/nourstalgie'), ('OLDPWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2673'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nourstalgie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nourstalgie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2492,unix/ubuntu:/tmp/.ICE-unix/2492'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e89456ba_dd82_4128_b44d_d028b896d7c1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper:/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_ros2'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper:/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components:/opt/ros/humble')]), 'shell': False}
+[194.288316] (zed_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[194.289166] (zed_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[194.289992] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_ros2/share/ament_index/resource_index/package_run_dependencies/zed_ros2\n'}
+[194.308344] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_ros2/share/ament_index/resource_index/parent_prefix_path/zed_ros2\n'}
+[194.326280] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_ros2/share/zed_ros2/environment/ament_prefix_path.sh\n'}
+[194.344118] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_ros2/share/zed_ros2/environment/ament_prefix_path.dsv\n'}
+[194.348798] (-) TimerEvent: {}
+[194.362192] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_ros2/share/zed_ros2/environment/path.sh\n'}
+[194.380177] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_ros2/share/zed_ros2/environment/path.dsv\n'}
+[194.399340] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_ros2/share/zed_ros2/local_setup.bash\n'}
+[194.417236] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_ros2/share/zed_ros2/local_setup.sh\n'}
+[194.436927] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_ros2/share/zed_ros2/local_setup.zsh\n'}
+[194.448926] (-) TimerEvent: {}
+[194.455407] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_ros2/share/zed_ros2/local_setup.dsv\n'}
+[194.473837] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_ros2/share/zed_ros2/package.dsv\n'}
+[194.493319] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_ros2/share/ament_index/resource_index/packages/zed_ros2\n'}
+[194.514290] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_ros2/share/zed_ros2/cmake/zed_ros2Config.cmake\n'}
+[194.531873] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_ros2/share/zed_ros2/cmake/zed_ros2Config-version.cmake\n'}
+[194.549095] (-) TimerEvent: {}
+[194.549787] (zed_ros2) StdoutLine: {'line': b'-- Symlinking: /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_ros2/share/zed_ros2/package.xml\n'}
+[194.573287] (zed_ros2) CommandEnded: {'returncode': 0}
+[194.619547] (zed_ros2) JobEnded: {'identifier': 'zed_ros2', 'rc': 0}
+[194.621241] (-) EventReactorShutdown: {}

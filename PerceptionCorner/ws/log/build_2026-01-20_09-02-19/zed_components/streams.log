@@ -1,0 +1,62 @@
+[0.017s] Invoking command in '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components
+[0.184s] -- The C compiler identification is GNU 11.4.0
+[0.311s] -- The CXX compiler identification is GNU 11.4.0
+[0.337s] -- Detecting C compiler ABI info
+[0.492s] -- Detecting C compiler ABI info - done
+[0.517s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.519s] -- Detecting C compile features
+[0.520s] -- Detecting C compile features - done
+[0.532s] -- Detecting CXX compiler ABI info
+[0.704s] -- Detecting CXX compiler ABI info - done
+[0.730s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.731s] -- Detecting CXX compile features
+[0.733s] -- Detecting CXX compile features - done
+[0.748s] -- Looking for sgemm_
+[0.900s] -- Looking for sgemm_ - not found
+[0.905s] -- Looking for pthread.h
+[1.064s] -- Looking for pthread.h - found
+[1.064s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.227s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.230s] -- Found Threads: TRUE  
+[1.314s] -- Looking for sgemm_
+[1.512s] -- Looking for sgemm_ - found
+[1.513s] -- Found BLAS: /usr/lib/aarch64-linux-gnu/libopenblas.so  
+[1.591s] -- Found CUDA: /usr/local/cuda-12.6 (found suitable version "12.6", minimum required is "12.6") 
+[1.645s] -- Found CUDA: /usr/local/cuda-12.6 (found version "12.6") 
+[1.651s] -- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.997s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.150s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.439s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.451s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.472s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.500s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.536s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.782s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.788s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.970s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.034s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.118s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.688s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[3.690s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.691s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[3.981s] [31mCMake Error at CMakeLists.txt:139 (find_package):
+[3.981s]   By not providing "Findcob_srvs.cmake" in CMAKE_MODULE_PATH this project has
+[3.981s]   asked CMake to find a package configuration file provided by "cob_srvs",
+[3.981s]   but CMake did not find one.
+[3.981s] 
+[3.981s]   Could not find a package configuration file provided by "cob_srvs" with any
+[3.982s]   of the following names:
+[3.982s] 
+[3.982s]     cob_srvsConfig.cmake
+[3.982s]     cob_srvs-config.cmake
+[3.982s] 
+[3.982s]   Add the installation prefix of "cob_srvs" to CMAKE_PREFIX_PATH or set
+[3.982s]   "cob_srvs_DIR" to a directory containing one of the above files.  If
+[3.982s]   "cob_srvs" provides a separate development package or SDK, be sure it has
+[3.983s]   been installed.
+[3.983s] 
+[3.983s] [0m
+[3.983s] -- Configuring incomplete, errors occurred!
+[3.983s] See also "/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components/CMakeFiles/CMakeOutput.log".
+[3.983s] See also "/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components/CMakeFiles/CMakeError.log".
+[4.015s] Invoked command in '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components

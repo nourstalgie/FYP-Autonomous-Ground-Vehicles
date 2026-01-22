@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.001103] (zed_components) JobQueued: {'identifier': 'zed_components', 'dependencies': OrderedDict()}
+[0.001412] (zed_wrapper) JobQueued: {'identifier': 'zed_wrapper', 'dependencies': OrderedDict([('zed_components', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components')])}
+[0.001701] (zed_ros2) JobQueued: {'identifier': 'zed_ros2', 'dependencies': OrderedDict([('zed_components', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components'), ('zed_wrapper', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_wrapper')])}
+[0.001826] (zed_components) JobStarted: {'identifier': 'zed_components'}
+[0.016138] (zed_components) JobProgress: {'identifier': 'zed_components', 'progress': 'cmake'}
+[0.017228] (zed_components) Command: {'cmd': ['/usr/bin/cmake', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper/zed_components', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/zed_components'], 'cwd': '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nourstalgie'), ('XDG_SESSION_TYPE', 'x11'), ('ROS_APT_SOURCE_VERSION', '1.1.0'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('HOME', '/home/nourstalgie'), ('OLDPWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/src/zed-ros2-wrapper'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2673'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'nourstalgie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nourstalgie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu:@/tmp/.ICE-unix/2492,unix/ubuntu:/tmp/.ICE-unix/2492'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e89456ba_dd82_4128_b44d_d028b896d7c1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099347] (-) TimerEvent: {}
+[0.185788] (zed_components) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199454] (-) TimerEvent: {}
+[0.300128] (-) TimerEvent: {}
+[0.312121] (zed_components) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.338595] (zed_components) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400298] (-) TimerEvent: {}
+[0.493298] (zed_components) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.500382] (-) TimerEvent: {}
+[0.518182] (zed_components) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.520245] (zed_components) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.521804] (zed_components) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.533527] (zed_components) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600602] (-) TimerEvent: {}
+[0.701309] (-) TimerEvent: {}
+[0.705523] (zed_components) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.731622] (zed_components) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.732631] (zed_components) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.734237] (zed_components) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.749989] (zed_components) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[0.801485] (-) TimerEvent: {}
+[0.900990] (zed_components) StdoutLine: {'line': b'-- Looking for sgemm_ - not found\n'}
+[0.901609] (-) TimerEvent: {}
+[0.906419] (zed_components) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.001837] (-) TimerEvent: {}
+[1.065220] (zed_components) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.066090] (zed_components) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.101998] (-) TimerEvent: {}
+[1.202676] (-) TimerEvent: {}
+[1.227976] (zed_components) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.231155] (zed_components) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.302839] (-) TimerEvent: {}
+[1.316115] (zed_components) StdoutLine: {'line': b'-- Looking for sgemm_\n'}
+[1.403012] (-) TimerEvent: {}
+[1.503699] (-) TimerEvent: {}
+[1.513078] (zed_components) StdoutLine: {'line': b'-- Looking for sgemm_ - found\n'}
+[1.515127] (zed_components) StdoutLine: {'line': b'-- Found BLAS: /usr/lib/aarch64-linux-gnu/libopenblas.so  \n'}
+[1.592722] (zed_components) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda-12.6 (found suitable version "12.6", minimum required is "12.6") \n'}
+[1.603839] (-) TimerEvent: {}
+[1.645934] (zed_components) StdoutLine: {'line': b'-- Found CUDA: /usr/local/cuda-12.6 (found version "12.6") \n'}
+[1.652857] (zed_components) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.12 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.703940] (-) TimerEvent: {}
+[1.804414] (-) TimerEvent: {}
+[1.904920] (-) TimerEvent: {}
+[1.998429] (zed_components) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.005003] (-) TimerEvent: {}
+[2.105624] (-) TimerEvent: {}
+[2.151757] (zed_components) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.205804] (-) TimerEvent: {}
+[2.306415] (-) TimerEvent: {}
+[2.407046] (-) TimerEvent: {}
+[2.440891] (zed_components) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.452504] (zed_components) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.473656] (zed_components) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.501806] (zed_components) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.507094] (-) TimerEvent: {}
+[2.537396] (zed_components) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.607231] (-) TimerEvent: {}
+[2.708003] (-) TimerEvent: {}
+[2.784007] (zed_components) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.789519] (zed_components) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.808065] (-) TimerEvent: {}
+[2.908564] (-) TimerEvent: {}
+[2.970955] (zed_components) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[3.008680] (-) TimerEvent: {}
+[3.035523] (zed_components) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[3.108817] (-) TimerEvent: {}
+[3.119931] (zed_components) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.209016] (-) TimerEvent: {}
+[3.309663] (-) TimerEvent: {}
+[3.410332] (-) TimerEvent: {}
+[3.510978] (-) TimerEvent: {}
+[3.611639] (-) TimerEvent: {}
+[3.689119] (zed_components) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[3.692137] (zed_components) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.692424] (zed_components) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[3.711724] (-) TimerEvent: {}
+[3.812294] (-) TimerEvent: {}
+[3.912994] (-) TimerEvent: {}
+[3.981732] (zed_components) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:139 (find_package):\n'}
+[3.982655] (zed_components) StderrLine: {'line': b'  By not providing "Findcob_srvs.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[3.982854] (zed_components) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "cob_srvs",\n'}
+[3.983000] (zed_components) StderrLine: {'line': b'  but CMake did not find one.\n'}
+[3.983136] (zed_components) StderrLine: {'line': b'\n'}
+[3.983266] (zed_components) StderrLine: {'line': b'  Could not find a package configuration file provided by "cob_srvs" with any\n'}
+[3.983393] (zed_components) StderrLine: {'line': b'  of the following names:\n'}
+[3.983517] (zed_components) StderrLine: {'line': b'\n'}
+[3.983638] (zed_components) StderrLine: {'line': b'    cob_srvsConfig.cmake\n'}
+[3.983758] (zed_components) StderrLine: {'line': b'    cob_srvs-config.cmake\n'}
+[3.983878] (zed_components) StderrLine: {'line': b'\n'}
+[3.983996] (zed_components) StderrLine: {'line': b'  Add the installation prefix of "cob_srvs" to CMAKE_PREFIX_PATH or set\n'}
+[3.984118] (zed_components) StderrLine: {'line': b'  "cob_srvs_DIR" to a directory containing one of the above files.  If\n'}
+[3.984260] (zed_components) StderrLine: {'line': b'  "cob_srvs" provides a separate development package or SDK, be sure it has\n'}
+[3.984382] (zed_components) StderrLine: {'line': b'  been installed.\n'}
+[3.984504] (zed_components) StderrLine: {'line': b'\n'}
+[3.984624] (zed_components) StderrLine: {'line': b'\x1b[0m\n'}
+[3.984744] (zed_components) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.984893] (zed_components) StdoutLine: {'line': b'See also "/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components/CMakeFiles/CMakeOutput.log".\n'}
+[3.985028] (zed_components) StdoutLine: {'line': b'See also "/home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/zed_components/CMakeFiles/CMakeError.log".\n'}
+[4.013105] (-) TimerEvent: {}
+[4.015736] (zed_components) CommandEnded: {'returncode': 1}
+[4.074024] (zed_components) JobEnded: {'identifier': 'zed_components', 'rc': 1}
+[4.085210] (zed_wrapper) JobSkipped: {'identifier': 'zed_wrapper'}
+[4.085393] (zed_ros2) JobSkipped: {'identifier': 'zed_ros2'}
+[4.085483] (-) EventReactorShutdown: {}

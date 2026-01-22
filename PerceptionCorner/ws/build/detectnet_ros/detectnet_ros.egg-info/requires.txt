@@ -1,0 +1,7 @@
+cv-bridge
+opencv-python
+pycuda
+setuptools
+
+[test]
+pytest

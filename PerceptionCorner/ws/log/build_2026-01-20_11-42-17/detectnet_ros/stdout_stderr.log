@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing detectnet_ros.egg-info/PKG-INFO
+writing dependency_links to detectnet_ros.egg-info/dependency_links.txt
+writing entry points to detectnet_ros.egg-info/entry_points.txt
+writing requirements to detectnet_ros.egg-info/requires.txt
+writing top-level names to detectnet_ros.egg-info/top_level.txt
+reading manifest file 'detectnet_ros.egg-info/SOURCES.txt'
+writing manifest file 'detectnet_ros.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/detectnet_ros/lib/python3.10/site-packages/detectnet-ros.egg-link (link to .)
+Installing detectnet_node script to /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/install/detectnet_ros/lib/detectnet_ros
+
+Installed /home/nourstalgie/FYP-Autonomous-Ground-Vehicles/PerceptionCorner/ws/build/detectnet_ros
+running symlink_data
